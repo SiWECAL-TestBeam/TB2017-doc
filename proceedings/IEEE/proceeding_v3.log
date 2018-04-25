@@ -1,0 +1,566 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.3)  31 JAN 2018 12:09
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**proceeding_v3.tex
+(./proceeding_v3.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
+(./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmpcountC=\count81
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen105
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
+\IEEEiedtopsep=\skip41
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
+\@IEEEsubeqnnumrollback=\count91
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count92
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\IEEEPARstartletwidth=\dimen125
+\c@IEEEbiography=\count93
+\@IEEEtranrubishbin=\box27
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count94
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+) (./proceeding_v3.aux)
+\openout1 = `proceeding_v3.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 15.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 15.
+
+-- Lines per column: 58 (exact).
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count95
+\scratchdimen=\dimen128
+\scratchbox=\box28
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen129
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
+\everyMPtoPDFconversion=\toks17
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 57.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 57.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Package epstopdf Info: Source file: <shortslab.eps>
+(epstopdf)                    date: 2017-11-10 11:57:17
+(epstopdf)                    size: 1225590 bytes
+(epstopdf)             Output file: <shortslab-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-01-31 12:09:32
+(epstopdf)                    size: 78879 bytes
+(epstopdf)             Command: <repstopdf --outfile=shortslab-eps-converted-to
+.pdf shortslab.eps>
+(epstopdf)             \includegraphics on input line 111.
+Package epstopdf Info: Output file is already uptodate.
+
+<shortslab-eps-converted-to.pdf, id=16, 751.80875pt x 269.005pt>
+File: shortslab-eps-converted-to.pdf Graphic file (type pdf)
+
+<use shortslab-eps-converted-to.pdf>
+Package pdftex.def Info: shortslab-eps-converted-to.pdf used on input line 111.
+
+(pdftex.def)             Requested size: 216.81pt x 77.57434pt.
+Package epstopdf Info: Source file: <fevcob1.eps>
+(epstopdf)                    date: 2017-12-05 16:21:37
+(epstopdf)                    size: 3101229 bytes
+(epstopdf)             Output file: <fevcob1-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-01-31 12:09:34
+(epstopdf)                    size: 212322 bytes
+(epstopdf)             Command: <repstopdf --outfile=fevcob1-eps-converted-to.p
+df fevcob1.eps>
+(epstopdf)             \includegraphics on input line 122.
+Package epstopdf Info: Output file is already uptodate.
+
+<fevcob1-eps-converted-to.pdf, id=17, 723.70375pt x 606.265pt>
+File: fevcob1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fevcob1-eps-converted-to.pdf>
+Package pdftex.def Info: fevcob1-eps-converted-to.pdf used on input line 122.
+(pdftex.def)             Requested size: 216.81pt x 181.62187pt.
+Package epstopdf Info: Source file: <fevcob2.eps>
+(epstopdf)                    date: 2017-11-10 11:56:03
+(epstopdf)                    size: 6713806 bytes
+(epstopdf)             Output file: <fevcob2-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-01-31 12:09:37
+(epstopdf)                    size: 297249 bytes
+(epstopdf)             Command: <repstopdf --outfile=fevcob2-eps-converted-to.p
+df fevcob2.eps>
+(epstopdf)             \includegraphics on input line 123.
+Package epstopdf Info: Output file is already uptodate.
+
+<fevcob2-eps-converted-to.pdf, id=18, 3183.895pt x 349.305pt>
+File: fevcob2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fevcob2-eps-converted-to.pdf>
+Package pdftex.def Info: fevcob2-eps-converted-to.pdf used on input line 123.
+(pdftex.def)             Requested size: 216.81pt x 23.78227pt.
+ [2 <./shortslab-eps-converted-to.pdf> <./fevcob1-eps-converted-to.pdf> <./fevc
+ob2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <proto.eps>
+(epstopdf)                    date: 2017-11-10 11:56:15
+(epstopdf)                    size: 4850756 bytes
+(epstopdf)             Output file: <proto-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-01-31 12:09:39
+(epstopdf)                    size: 253062 bytes
+(epstopdf)             Command: <repstopdf --outfile=proto-eps-converted-to.pdf
+ proto.eps>
+(epstopdf)             \includegraphics on input line 213.
+Package epstopdf Info: Output file is already uptodate.
+
+<proto-eps-converted-to.pdf, id=32, 1059.96pt x 757.83125pt>
+File: proto-eps-converted-to.pdf Graphic file (type pdf)
+
+<use proto-eps-converted-to.pdf>
+Package pdftex.def Info: proto-eps-converted-to.pdf used on input line 213.
+(pdftex.def)             Requested size: 216.81pt x 155.0095pt.
+Package epstopdf Info: Source file: <mipsummary.eps>
+(epstopdf)                    date: 2017-12-07 17:50:30
+(epstopdf)                    size: 14378 bytes
+(epstopdf)             Output file: <mipsummary-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-01-31 12:09:39
+(epstopdf)                    size: 15062 bytes
+(epstopdf)             Command: <repstopdf --outfile=mipsummary-eps-converted-t
+o.pdf mipsummary.eps>
+(epstopdf)             \includegraphics on input line 231.
+Package epstopdf Info: Output file is already uptodate.
+
+<mipsummary-eps-converted-to.pdf, id=33, 569.12625pt x 441.65pt>
+File: mipsummary-eps-converted-to.pdf Graphic file (type pdf)
+
+<use mipsummary-eps-converted-to.pdf>
+Package pdftex.def Info: mipsummary-eps-converted-to.pdf used on input line 231
+.
+(pdftex.def)             Requested size: 180.67499pt x 140.20546pt.
+Package epstopdf Info: Source file: <snsummary.eps>
+(epstopdf)                    date: 2017-12-07 17:50:11
+(epstopdf)                    size: 14522 bytes
+(epstopdf)             Output file: <snsummary-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-01-31 12:09:40
+(epstopdf)                    size: 13800 bytes
+(epstopdf)             Command: <repstopdf --outfile=snsummary-eps-converted-to
+.pdf snsummary.eps>
+(epstopdf)             \includegraphics on input line 232.
+Package epstopdf Info: Output file is already uptodate.
+
+<snsummary-eps-converted-to.pdf, id=34, 569.12625pt x 441.65pt>
+File: snsummary-eps-converted-to.pdf Graphic file (type pdf)
+
+<use snsummary-eps-converted-to.pdf>
+Package pdftex.def Info: snsummary-eps-converted-to.pdf used on input line 232.
+
+(pdftex.def)             Requested size: 180.67499pt x 140.20546pt.
+Package epstopdf Info: Source file: <mip3peaks.eps>
+(epstopdf)                    date: 2017-12-08 11:39:53
+(epstopdf)                    size: 31959 bytes
+(epstopdf)             Output file: <mip3peaks-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-01-31 12:09:40
+(epstopdf)                    size: 20297 bytes
+(epstopdf)             Command: <repstopdf --outfile=mip3peaks-eps-converted-to
+.pdf mip3peaks.eps>
+(epstopdf)             \includegraphics on input line 256.
+Package epstopdf Info: Output file is already uptodate.
+
+<mip3peaks-eps-converted-to.pdf, id=35, 569.12625pt x 441.65pt>
+File: mip3peaks-eps-converted-to.pdf Graphic file (type pdf)
+
+<use mip3peaks-eps-converted-to.pdf>
+Package pdftex.def Info: mip3peaks-eps-converted-to.pdf used on input line 256.
+
+(pdftex.def)             Requested size: 252.94499pt x 196.28764pt.
+
+Overfull \hbox (0.94499pt too wide) in paragraph at lines 256--257
+ [][] 
+ []
+
+[3 <./proto-eps-converted-to.pdf> <./mipsummary-eps-converted-to.pdf> <./snsumm
+ary-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <shower1.eps>
+(epstopdf)                    date: 2017-11-10 11:56:34
+(epstopdf)                    size: 2775787 bytes
+(epstopdf)             Output file: <shower1-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-01-31 12:09:41
+(epstopdf)                    size: 92551 bytes
+(epstopdf)             Command: <repstopdf --outfile=shower1-eps-converted-to.p
+df shower1.eps>
+(epstopdf)             \includegraphics on input line 290.
+Package epstopdf Info: Output file is already uptodate.
+
+<shower1-eps-converted-to.pdf, id=70, 792.9625pt x 579.16376pt>
+File: shower1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use shower1-eps-converted-to.pdf>
+Package pdftex.def Info: shower1-eps-converted-to.pdf used on input line 290.
+(pdftex.def)             Requested size: 216.81pt x 158.34702pt.
+Package epstopdf Info: Source file: <shower2.eps>
+(epstopdf)                    date: 2017-11-10 11:56:38
+(epstopdf)                    size: 2759501 bytes
+(epstopdf)             Output file: <shower2-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-01-31 12:09:42
+(epstopdf)                    size: 90525 bytes
+(epstopdf)             Command: <repstopdf --outfile=shower2-eps-converted-to.p
+df shower2.eps>
+(epstopdf)             \includegraphics on input line 291.
+Package epstopdf Info: Output file is already uptodate.
+
+<shower2-eps-converted-to.pdf, id=71, 797.98125pt x 572.1375pt>
+File: shower2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use shower2-eps-converted-to.pdf>
+Package pdftex.def Info: shower2-eps-converted-to.pdf used on input line 291.
+(pdftex.def)             Requested size: 216.81pt x 155.44823pt.
+Package epstopdf Info: Source file: <shower3.eps>
+(epstopdf)                    date: 2017-11-10 11:56:42
+(epstopdf)                    size: 2791405 bytes
+(epstopdf)             Output file: <shower3-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-01-11 10:56:37
+(epstopdf)                    size: 88341 bytes
+(epstopdf)             Command: <repstopdf --outfile=shower3-eps-converted-to.p
+df shower3.eps>
+(epstopdf)             \includegraphics on input line 292.
+Package epstopdf Info: Output file is already uptodate.
+
+<shower3-eps-converted-to.pdf, id=72, 803.0pt x 575.14874pt>
+File: shower3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use shower3-eps-converted-to.pdf>
+Package pdftex.def Info: shower3-eps-converted-to.pdf used on input line 292.
+(pdftex.def)             Requested size: 216.81pt x 155.29224pt.
+ [4 <./mip3peaks-eps-converted-to.pdf> <./shower1-eps-converted-to.pdf> <./show
+er2-eps-converted-to.pdf> <./shower3-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <longslab.eps>
+(epstopdf)                    date: 2017-12-05 16:16:41
+(epstopdf)                    size: 836622 bytes
+(epstopdf)             Output file: <longslab-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-01-11 10:56:38
+(epstopdf)                    size: 29290 bytes
+(epstopdf)             Command: <repstopdf --outfile=longslab-eps-converted-to.
+pdf longslab.eps>
+(epstopdf)             \includegraphics on input line 326.
+Package epstopdf Info: Output file is already uptodate.
+
+<longslab-eps-converted-to.pdf, id=99, 705.63625pt x 1040.88875pt>
+File: longslab-eps-converted-to.pdf Graphic file (type pdf)
+
+<use longslab-eps-converted-to.pdf>
+Package pdftex.def Info: longslab-eps-converted-to.pdf used on input line 326.
+(pdftex.def)             Requested size: 144.54pt x 213.20886pt.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 342.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¶ in font ptmr7t!
+ [5 <./longslab-eps-converted-to.pdf>] (./proceeding_v3.aux) ) 
+Here is how much of TeX's memory you used:
+ 2903 strings out of 494910
+ 47630 string characters out of 6179837
+ 104346 words of memory out of 5000000
+ 6168 multiletter control sequences out of 15000+600000
+ 39302 words of font info for 71 fonts, out of 8000000 for 9000
+ 39 hyphenation exceptions out of 8191
+ 37i,11n,23p,488b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texli
+ve/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on proceeding_v3.pdf (5 pages, 1297718 bytes).
+PDF statistics:
+ 142 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+
