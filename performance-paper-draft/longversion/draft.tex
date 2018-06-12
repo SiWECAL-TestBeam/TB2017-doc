@@ -13,7 +13,7 @@
 
 \linenumbers
 
-\title{\boldmath Commissioning and performance in beam tests of the highly granular SiW-ECAL technological prototype for the ILC}
+\title{\boldmath Commissioning of the highly granular SiW-ECAL technological prototype}
 
 % e-mail addresses: only for the forresponding author
 \emailAdd{irles@lal.in2p3.fr}
@@ -48,32 +48,16 @@ linear colliders such the ILC\cite{Behnke:2013xla,Baer:2013cma,Adolphsen:2013jya
 This project will provide collisions of polarized beams with centre-of-mass energies ($c.m.e$) of 250 GeV - 1 TeV.
 These collisions will be studied by two multipurpose detectors:
 the International Large Detector (ILD) and the Silicon Detector (SiD)\cite{Behnke:2013lya}.
-Another example of an $e^{+}e^{-}$ collider project is the Compact Linear Collider (CLIC)
-project\cite{Aicheler:2012bya,Linssen:2012hp,Lebrun:2012hj}
-which will produce collisions with $c.m.e$ of 380 GeV - 3 TeV
-with a detector featuring similar design than the ILD and SiD.
-Both projects will explore with unprecedented precision the origin of the electroweak symmetry breaking and new physics beyond the standard model by exploring final states with heavy bosons (W, Z  and H) and fermions ({\it i.e.} heavy quarks as $c$, $b$ and $t$).
-
-It is known that in a {\it classical} typical multipurpose detector
-of a collider experiment the charged particles momentum is better measured by the tracking system
-the photons energy are only observed in the calorimeter system (mainly in the electromagnetic) if they are not converted
-and the measurement of the neutral hadrons energy can only be done by involving the full calorimeter systems.
-To meet the required precision levels by the ILC or CLIC physics goals,
+To meet the precision levels required by the ILC %or CLIC
+physics goals,
 new techniques relying on single particle separation to make possible the choice of the best information available
 in the full detector to measure the energy of the final state objects have been developed.
 These techniques are called Particle Flow (PF) techniques \cite{Brient:2002gh,Morgunov:2004ed,Sefkow:2015hna}
 and allow to reduce the impact of the poor resolution of the calorimeter systems (compared with trackers) in the overall reconstruction.
-For this purpose, detectors optimized for PF algorithms have some requirements. Some of them are summarized here:
-
-\begin{itemize}
-\item a highly efficient and "transparent" tracking system between the interaction point and the calorimetry systems;
-\item highly granular ({\it imaging calorimetry}) and compact calorimeter systems featuring minimum dead material;
-\item and high power of particle separation\footnote{
-For that reason the calorimeter systems at ILD will be placed inside the magnetic coil
-providing magnetic fields of 3.5 T}.
-\end{itemize}
-
-The R\&D of highly granular calorimeters for future linear colliders is conducted within the CALICE collaboration and, for now on, we refer the reader to \cite{Sefkow:2015hna} for further information about PF and the CALICE R\&D.
+The detectors optimized for PF algorithms have some requirements. In the case of calorimeters: highly granular, compact
+and hermetic calorimeters. 
+The CALICE collaboration is doing R\&D of highly granular calorimeters \cite{Sefkow:2015hna} 
+for future linear colliders.
 
 In this document we will focus in the description of the silicon-tungsten electromagnetic calorimeter,
 SiW-ECAL, its commissioning and its performance in beam test.
@@ -81,7 +65,7 @@ The SiW-ECAL is the baseline choice for the ILD ECAL. It consists in a detector 
 It has silicon (Si) as active material and tungsten (W) as absorber material.
 The combination of Si and W choices  makes possible the design and construction
 of a very compact calorimeter with highly granular and compact active layers.
-It will consist of an alveolar structure of carbon fiber into which modules called SLABs made of tungsten
+It will consist of an alveolar structure of carbon fiber into which modules made of tungsten
 plates and the active sensors will be inserted. The very-front-end (VFE) electronics will be
 embedded in the SLABs. The silicon sensors will be segmented
 in squared cells (or channels) of 5x5 mm: a total of $\sim 100$ million channels will constitute the ECAL for ILD.
@@ -89,7 +73,10 @@ The desired signal dynamic range in each channel goes from 0.5 MIP to 3000 MIPs.
 To reduce overall power consumption, the SiW-ECAL will exploit the special bunch structure
 foreseen for the ILC: the $e^{+}e^{-}$ bunchs trains will arrive within
 acquisition windows of $\sim$ 1-2 ms width separated by $\sim$ 200 ms. During the idle time, the bias currents of the electronics will be shut down.
-This technique is usually denominated power pulsing. In addition to this, to cope with the large amount of channels, the calorimeters should work in self-trigger mode (each channel featuring an internal trigger decision chain) and zero suppression mode. 
+This technique is usually denominated power pulsing. In addition to this, to cope with the large amount of channels,
+the calorimeters should work in self-trigger mode (each channel featuring an internal trigger decision chain) and zero suppression mode. 
+
+\section{The SiW-ECAL technological prototype}
 
 The first SiW-ECAL prototype was the so called SiW-ECAL physics prototype.
 It was successfully tested at DESY, FNAL and CERN running in front of another prototype from the CALICE
@@ -103,16 +90,14 @@ The prototype was divided in 3 modules of 10 layers with different W depth per l
 (0.4, 1.6 and 2.4 $X_{0}$) making a total of 24 $X_{0}$.
 That very first prototype offered a signal over noise on the measured charge of 7.5 for MIP like 
 particles. More results proving the good performance of the technology and the PF can be found in
-references~\cite{Adloff:2011ha,Anduze:2008hq,Adloff:2008aa,Adloff:2010xj,CALICE:2011aa,Bilki:2014uep}. 
-
-\section{The SiW-ECAL technological prototype}
-
+references~\cite{Adloff:2011ha,Anduze:2008hq,Adloff:2008aa,Adloff:2010xj,CALICE:2011aa,Bilki:2014uep}.
 
 The new generation prototype is called the SiW-ECAL technological prototype. It addresses the main technological challenges: compactness,
 power consumption reduction through power pulsing and VFE inside the detector close to real ILD conditions.
 It will also provide data to deeply study the PF and provide input to tune simulation programs as for example
 GEANT4\cite{Agostinelli:2002hh,Allison:2006ve,Allison:2016lfl} which is widely used
-in particle physics to simulate the passage of particles through matter.
+in particle physics to simulate the passage of particles through matter. In this section we described in detail
+the main features and characteristics of the technollogical prototype.
 
 \subsection{Silicon sensors}
 \label{sec:wafers}
