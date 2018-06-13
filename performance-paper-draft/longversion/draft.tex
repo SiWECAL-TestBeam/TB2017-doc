@@ -10,6 +10,7 @@
 \usepackage{lineno}
 \usepackage{color}
 \newcommand{\todo}[1]{\textcolor{red}{{#1}}}
+\usepackage[outdir=./]{epstopdf}
 
 \linenumbers
 
@@ -54,20 +55,22 @@ new techniques relying on single particle separation to make possible the choice
 in the full detector to measure the energy of the final state objects have been developed.
 These techniques are called Particle Flow (PF) techniques \cite{Brient:2002gh,Morgunov:2004ed,Sefkow:2015hna}
 and allow to reduce the impact of the poor resolution of the calorimeter systems (compared with trackers) in the overall reconstruction.
-The detectors optimized for PF algorithms have some requirements. In the case of calorimeters: highly granular, compact
-and hermetic calorimeters. 
-The CALICE collaboration is doing R\&D of highly granular calorimeters \cite{Sefkow:2015hna} 
-for future linear colliders.
+The PF algorithms impose some special requirements in the design of the detectors.
+For example, it requires highly granular, compact
+and hermetic calorimeters.
 
-In this document we will focus in the description of the silicon-tungsten electromagnetic calorimeter,
-SiW-ECAL, its commissioning and its performance in beam test.
-The SiW-ECAL is the baseline choice for the ILD ECAL. It consists in a detector (in the barrel region) of 24 $X_{0}$ of thickness which corresponds to $\sim 1~\lambda_{I}$ (interaction length).
+The CALICE collaboration is driving most of the efforts on R\&D of highly granular calorimeters \cite{Sefkow:2015hna} 
+for future linear colliders by investigating and building prototypes for several
+calorimeter concepts. One of these calorimeters 
+is the silicon-tungsten electromagnetic calorimeter, SiW-ECAL.
+The SiW-ECAL is the baseline choice for the ILD electromagnetic calorimeter.
+It consists in a detector (in the barrel region) of 24 $X_{0}$ of thickness which corresponds to $\sim 1~\lambda_{I}$ (interaction length).
 It has silicon (Si) as active material and tungsten (W) as absorber material.
 The combination of Si and W choices  makes possible the design and construction
 of a very compact calorimeter with highly granular and compact active layers.
-It will consist of an alveolar structure of carbon fiber into which modules made of tungsten
+It will be built an alveolar structure of carbon fiber into which modules made of tungsten
 plates and the active sensors will be inserted. The very-front-end (VFE) electronics will be
-embedded in the SLABs. The silicon sensors will be segmented
+embedded in the detector units. The silicon sensors will be segmented
 in squared cells (or channels) of 5x5 mm: a total of $\sim 100$ million channels will constitute the ECAL for ILD.
 The desired signal dynamic range in each channel goes from 0.5 MIP to 3000 MIPs.
 To reduce overall power consumption, the SiW-ECAL will exploit the special bunch structure
@@ -85,7 +88,8 @@ and the PF calorimetry.
 For the physics prototype, the VFE was placed outside the active area with no particular constraints in power consumption.
 It consisted of 30 layers of Si as active material alternated with tungsten plates as absorber material.
 The active layers were made of a matrix of 3x3 Si wafers of 500 $\mu$m thickness. Each of these wafers was segmented in matrices of
-6x6 squared channels of 1x1 $cm^{2}$, allowing for density of 1500 channels/dm$^{3}$
+6x6 squared channels of 1x1 $cm^{2}$, allowing for a potential density of 1500 channels/dm$^{3}$ assuming
+the ILD baseline design constraints on the material repartition and compactness.
 The prototype was divided in 3 modules of 10 layers with different W depth per layer in each of these modules
 (0.4, 1.6 and 2.4 $X_{0}$) making a total of 24 $X_{0}$.
 That very first prototype offered a signal over noise on the measured charge of 7.5 for MIP like 
@@ -123,34 +127,6 @@ can be reduced to be almost negligible. This need to be confirmed in beam test.
 Unfortunately, for the interaction with low energy particles as the delivered at the
 DESY beam test facility (see Section \ref{sec:beamtest}) the
 amount of squared events is expected to be negligible, therefore we will not discuss this issue in the following.
-% do any differentiation 
-%of our results depending on the wafer type mounted in the detector.
-
-%\begin{itemize}
-%\item \todo{N wafers type-X with guard-rings of XXX characteristics (continuous, segmented, segmented smaller??)}
-%\item \todo{N wafers type-Y without guard rings and the width of the peripheral dead areas lower than 500 $\mu$m thanks to the use of stealth dicing technique.}
-%\end{itemize}
-
-%For the wafers \todo{type-Y}, the amount of squared events is expected to be reduced by, at least, a \todo{factor XXX}. In both cases, 
-%for interaction with low energy particles as the delivered at the DESY beam test facility (see Section \ref{sec:beamtest}) the
-%amount of squared events is expected to be negligible, therefore we will not do any differentiation 
-%of our results depending on the wafer type mounted in the detector.
-
-%\todo{ Is this needed? If so, what are the right plots to show?} Before the assembly of the sensors in the detector, these are characterized one-by-one by measuring the leakage current (of %the order of 1 nA per single diode) 
-%as a function of the bias voltage (I-V curve), the full depletion voltage (of 40 V) extracted from C-V curve and
-%the stability in time (leakage current versus time at a nominal bias).
-%The single diodes have capacitances of 8 $pF$.
-
-%\begin{figure}[!t]
-%\centering
-%\begin{tabular}{lll}
-%  \includegraphics[width=1.8in]{../figs/test.jpg} &
-%  \includegraphics[width=1.8in]{../figs/test2.jpg} &
-%  \includegraphics[width=1.8in]{../figs/test3.jpg}
-%\end{tabular}
-%\caption{I-V curve, C-V curve, leakage current vs time. \todo{Temporary picture: Triptic La Esperanza del Condenado, J. Miró}}
-%\label{shortslab}
-%\end{figure}
 
 \subsection{SKIROC: Silicon pin Kalorimeter Integrated ReadOut Chip}
 \label{sec:skiroc}
@@ -231,8 +207,8 @@ The whole system is controlled by the Calicoes and the Pyrame DAQ software versi
 
 \begin{figure}[!t]
   \centering
-    \includegraphics[width=2.8in]{../figs/test.jpg} 
-  \caption{\todo{Temporary picture: La Esperanza del Condenado, J. Miró}: Open single SLAB with FEV11 ASU, 16 SKIROC 2, interface card and DIF visibles. }
+    \includegraphics[width=6in]{../figs/short_slab_bga.jpg} 
+  \caption{Open single SLAB with FEV11 ASU, 16 SKIROC 2 and the interface card visibles. }
 \label{ASU2}
 \end{figure}
 
@@ -251,18 +227,12 @@ to provide electromagnetic shielding and mechanical stability.
 This ensemble is denominated SLAB
 (``short'' for 1 ASU ensembles or ``long'' for several ASUs enchained) and it can be seen in
 Figure \ref{ASU2}.
-With current SLABs, a potential density of
-4000 channels/dm$^{3}$ is achievable. This number should be compared with
-the density achieved for previous beam tests: 1500 channels/dm$^{3}$ \cite{Amjad:2014tha}.
-
-\begin{figure}[!t]
-\centering
-\begin{tabular}{l}
-\includegraphics[width=6.0in]{../figs/assembly.png} 
-\end{tabular}
-\caption{Process flow for the assembly of the SiW-ECAL SLABs.}
-\label{assembly}
-\end{figure}
+The PCB thickness is 1.6 alone and 2.7 mm
+including the ASICs in its current packaging: 1.1 mm thick LFBGA package.
+With these characteristics, a potential density of
+3160 channels/dm$^{3}$ is achievable for the baseline design 
+of the ILD. This number should be compared with
+the density achieved in beam tests with the physics prototype: 1500 channels/dm$^{3}$ \cite{Amjad:2014tha}.
 
 The SiW-ECAL detector designed for the ILD requires of the order
 of $10^{5}$ highly integrated detection like the ones described in this text.
@@ -272,7 +242,14 @@ profiting from the funding of projects like AIDA2020 or the HIGHTEC emblematic p
 of the P2IO. A schematic view of this assembly procedure chain can be seen in
 Figure \ref{assembly}. For more details we refer to Ref.\cite{Boudry:2318814}.
 
-
+\begin{figure}[!t]
+\centering
+\begin{tabular}{l}
+\includegraphics[width=6.0in]{../figs/assembly.png} 
+\end{tabular}
+\caption{Process flow for the assembly of the SiW-ECAL SLABs.}
+\label{assembly}
+\end{figure}
 
 \section{Commissioning}
 \label{sec:commissioning}
@@ -613,15 +590,16 @@ Section \ref{sec:showers}.
 \subsection{Response to MIP-acting positrons}
 \label{sec:calib}
 
-\subsubsection{Pedestal and noise determination}
-\label{sec:pedestal}
-
 The calibration runs have been used to calculate the pedestal distribution reference values 
 and the noise levels (the width of the pedestal distrution) of each channel.
 In Figure \ref{signal_pedestal} we show the signal and pedestal distribution of a single channel after
-subtracting the pedestal mean position. The results of the MIP calibration fit are included (red) and explained in the next version.
+subtracting the pedestal mean position. The results of the MIP calibration fit are shown in red (see Section \ref{sec:mip} for more details)
 The pedestal distribution is shown only for the first SCA to keep the y-axis within a reasonable range.
 The signal distribution is integrated over all SCAs.
+
+\subsubsection{Pedestal and noise determination}
+\label{sec:pedestal}
+
 
 \begin{figure}[!t]
   \centering
@@ -672,7 +650,8 @@ From now on, the pedestal correction is applied to all the results presented.
 \subsubsection{Energy calibration and tracking efficiency}
 \label{sec:mip}
 
-A Landau function convoluted with a Gaussian is fit to the resulting hit distribution. 
+After the pedestals are calculated and subtracted to the hit distributions, those are fit by
+a Landau function convoluted with a Gaussian.
 The most-probable-value of the convoluted function is taken as the MIP value, allowing thus for a direct
 conversion from ADC units to energy in MIP units.
 We have obtained a raw energy calibration spread of the 5\% among all channels with the 98\% of all 
@@ -870,16 +849,19 @@ of $\sim8$ ASUs is currently ongoing.
 %layers made of chains of ASUs (up to $\sim$15 ASU) 
 %as well as in the standardization of the interconnections. 
 
-In parallel to the ASUs equipped with BGA packaged ASICs, a different proposal for the ASU
+In parallel, a different proposal for a thiner ASU
 design is being investigated. This is motivated by the high density of channels
-demanded by the Particle Flow algorithms. Indeed, the FEV11 thickness is 1.6 alone and 2.7 mm
-including the ASICs in its current packaging: 1.1 mm thick LFBGA package.
+demanded by the Particle Flow algorithms. 
 In this alternative PCB design the ASICs
 are directly placed on board of the PCB in dedicated cavities.
 The ASICS will be in semiconductor packaging and wire bonded to the PCB. This is the so-called COB (chip-on-board) version of the ASU.
 A small sample of FEV11\_COBs (same connexion pattern with the interface card than FEV11)
-with a total thickness of 1.2 mm allowing for a potential denisty of 10000 channels/dm$^{3}$ has been produced and tested in the laboratory
+with a total thickness of 1.2 mm (to be compared with the 2.7 of the LFBGA solution)
+has been produced and tested in the laboratory
 showing its readiness for tests with particle beams. A sample can be seen in Figure \ref{cob}.
+These new boards maximize the density of channels (4800 channels/dm$^{3}$) for the ECAL of the ILD
+and will allow to satisfy the requirement of having 30 active layers in 20 cm length
+for the barrel areas of the ECAL.
 
 \begin{figure}[!t]
   \centering
@@ -888,10 +870,8 @@ showing its readiness for tests with particle beams. A sample can be seen in Fig
 \label{cob}
 \end{figure}
 
-Finally, many efforts in the compactification of
-the DAQ and the ASUs ({\it i.e.} the chip on board versions of the 
-ASUs described in Section \ref{sec:ASU}) are being
-conducted by the SiW-ECAL collaboration.
+Finally, intensive R\&D on the compactification of
+the DAQ towards meeting the ILD tight space requirements is being done by the SiW-ECAL collaboration.
 
 It is foreseen that all these developments, with the exception of the SKIROC3, will be tested with particle beams during 2018-2019.
 
@@ -926,44 +906,50 @@ an OR64 signal to mark the the change to a new SCA when a signal over threshold 
 detected. The empty triggers appear when during
 the acquisition the rising edge of the slow clock falls during the OR64 signal
 and therefore the change to a new SCA is validated twice.
-This effect creates around 10-15\% of empty events which are easily filter and removed from the
-analysis. \todo{The ratio of empty triggers in the new SKIROC2a is reduced to the $\sim3\%$
-thanks to to a decrease of the OR64 size by a factor X.}
+This effect creates around 17\% of empty events which are easily filter and removed from the
+analysis. The ratio of empty triggers in the new SKIROC2a has been reduced to the $\sim2-3\%$.
 
 \subsubsection*{Plane events and retriggers}
 
 Another well know issue is the appearance of bunches of consecutive fake triggers, called retriggers,
-that saturates the DAQ. These events are also
-characterized by triggering many channels (some times even all channels of an ASIC) at the same time.
-Although the ultimate reason of the appearance of these events remains unknown we
-think that they may be related to some distortion of the
+that saturates the DAQ. 
+Although the ultimate reason of the appearance of these events remains not clear, it
+is suspected that they are related to distortions of the
 power supply baselines. We know that the SKIROC2 and 2a preamplifiers are referenced to the analog power supply level,
-therefore, any voltage dip can ve seen as signal by the preamplifiers. The presence of a high inrush of current
+therefore, any voltage dip can ve seen as signal by the preamplifiers.
+Moreover the presence of a high inrush of current
 due to many channels triggered at the same time can create these voltage dips
-and produce the so called plane events (most of the channels trigered at once).
+and also produce the so called plane events (most of the channels trigered at once).
 In previous studies ({\it i.e.} reference \cite{Amjad:2014tha}), the ratio of retriggers and plane events
 was reduced by improving the power supply stabilization capacitances. It is important to remark that
 all layers and all ASICs analog and digital levels are powered using the same power supply.
-Moreover, the high voltage power supply for the polarization of the PIN diode it is also common for all layers.
+Moreover, the high voltage power supply for the polarization of the PIN diode is also common for all layers
+and the grounding levels of the low and high voltages supplied are shared within the slab.
 Therefore any noise in
 these power supplies or any overload of an ASIC may participate in the creation of fake signals
 in different ASICs and layers.
 
-Studying the MIP calibration data of this beam test we have noticed that the larger concentration of the retriggers and plane events are originated 
-in
-ASICs far from the beam spot. Even more, hot spots tend to appear near the channels 37 and the channels masked
-as suspicious of suffering from routing issues. The amount these events have been estimated to be of $1-3\%$ in the ASICs where high frequency
+Studying the MIP calibration data of this beam test we have noticed that the 
+concentration of the retriggers and plane events in
+ASICs far from the beam spot is higher than in the ASICs that are reading
+out the information of real hits. Even more, this concentration is even higher near the channels
+37 and the channels masked as suspicious of suffering from routing issues.
+The ratio these events have been estimated to be of $1-3\%$ in the ASICs where high frequency
 interactions are produced ({\it i.e.} using 3 GeV positrons ate 2-3 KHz) and at higher rates even larger than $40\%$ in other 
-ASICs far from the beam spot.
+ASICs far from the beam spot. 
 Moreover, it has been noticed a correlation between the time that an ASIC was full and the time of the appearance of some 
 retriggers in other areas of the PCB. 
 This correlation corresponds to $\sim$1.6 $\mu$s which hints
 of a distortion on the analogue power supply when
 the signal that informs the DIF that one ASIC memory is full is transmitted through the PCB.
 
-All this information and dedicated studies in the laboratory will be used for the
-improvement of the power supplying system, the PCB design and for further SKIROC developments 
-with the possible approval the ILC in the scope.
+We should point out that these events are easilly filtered out during the analysis (or even during the online monitoring)
+and that no impact is observed
+in the data, {\it i.e.} in the MIP detection efficiency.
+
+%All this information and dedicated studies in the laboratory will be used for the
+%improvement of the power supplying system, the PCB design and for further SKIROC developments 
+%with the possible approval the ILC in the scope.
 
 % We suggest to always provide author, title and journal data:
 % in short all the informations that clearly identify a document.
