@@ -24,10 +24,10 @@
 \abstract{
   High precision physics at future colliders as the International Linear Collider (ILC) require unprecedented high precision in the determination
   of the final state of the particles produced in the collisions
-  The needed precision will be achieved thanks to the Particle Flow algorithms (PF) which require compact, highly granular and hermetic calorimeters systems.
+  Thia precission will be achieved thanks to the Particle Flow algorithms (PF) which require compact, highly granular and hermetic calorimeters systems.
   The Silicon-Tungsten Electromagnetic Calorimeter (SiW-ECAL) technological prototype
   design and R\&D is oriented at the baseline design of the ECAL of the International Large Detector (ILD) for the ILC.
-  In this article we present the commissioning and the performance of the prototype in our beam test carried at DESY in June 2017.
+  In this article we present the commissioning and the performance of the prototype in a beam test carried at DESY in June 2017.
 }
 
 
@@ -45,7 +45,7 @@ Future accelerator based particle physics experiments
 require very precise and detailed reconstruction of the final states produced
 in the beam collisions. A particular example is the next generation of $e^{+}e^{-}$
 linear colliders such the ILC\cite{Behnke:2013xla,Baer:2013cma,Adolphsen:2013jya,Adolphsen:2013kya,Behnke:2013lya}.
-This project will provide collisions of polarized beams with center-of-mass energies ($c.m.e$) of 250 GeV - 1 TeV.
+This project will provide collisions of polarized beams with center-of-mass energies of 250 GeV - 1 TeV.
 These collisions will be studied by two multipurpose detectors:
 the International Large Detector (ILD) and the Silicon Detector (SiD)\cite{Behnke:2013lya}.
 To meet the precision levels required by the ILC %or CLIC
@@ -109,10 +109,9 @@ the main features and characteristics of the technological prototype.
 The sensors consist of high resistivity (bigger than 5000 $\Omega\cdot$cm)
 %floating zone
 silicon wafers with a thickness of 320$\mu$m.
-The size of the wafers is $9\times9$ cm$^{2}$ and they are each subdivided in an array of 256 PIN diodes of $5\times5$ mm$^{2}$.
+The size of the wafers is $9\times9$ cm$^{2}$ and each of them is subdivided in an array of 256 PIN diodes of $5\times5$ mm$^{2}$.
 A MIP traversing the PIN parallel to its normal will create $\sim$ 80 $h^{+}e^{-}$ pairs per $\mu$m which corresponds to 4.1 fC
 for particles incident perpendicularly to its surface.
-
 The original design of the silicon wafers included an edge termination made of floating guard-rings.
 It was observed in beam tests \cite{Cornat:2015eoa,Cornat:2009zz} that the capacitive coupling between such floating guard-rings 
 and the channels at the edge created not negligible rates off fake
@@ -121,10 +120,11 @@ An R\&D program together with Hamamatsu Photonics (HPK Japan) was conducted to s
 as well as the internal crosstalk. It was concluded that using wafers without guard rings and with a width of the peripheral areas lower than 
 500$\mu$m thanks to the use of stealth dicing technique, the amount of these squared events 
 can be reduced to be at negligible level.
-
 For the setup described this article we used different solutions for the edge terminations.
-For all of them, the levels of fake events are at negligible level due to
-the low energy of the beam used to test the prototype. Therefore, they are not further described here.
+For all of them, the expected levels of fake events are negligible due to
+the low energy of the interactions studied in this paper:
+MIP like particles or electromagnetic showers created by particles of few GeV
+from the DESY beam. Therefore, they are not further discussed here.
 
 \subsection{SKIROC: Silicon pin Kalorimeter Integrated ReadOut Chip}
 \label{sec:skiroc}
@@ -138,16 +138,16 @@ the low energy of the beam used to test the prototype. Therefore, they are not f
 
 The SKIROC\cite{Callier:2011zz} (Silicon pin Kalorimeter Integrated ReadOut Chip) is a
 very front end ASIC (application-specific integrated circuits)
-designed for the readout of the Silicon PIN didoes.
+designed for the readout of silicon PIN diodes.
 In its version SKIROC2 it consists of 64 channels in AMS 0.35 $\mu$m SiGe technology.
 A schematic view of the analog part of the SKIROC2 is shown in Figure \ref{SKIROC2}.
 Each channel comprises a low noise charge preamplifier of variable gain followed by two branches:
-a fast shaper for the trigger decision and a set of dual gain slow shaper for charge measurement. 
+a fast shaper for the trigger decision and a set of dual gain slow shapers for charge measurement. 
 The gain can be controlled by modifying the feedback capacitance during the configuration of the detector.
 With the lowest gain, 6pF, the ASIC will handle a linear dynamic range from 0.1 to up to 1500 MIPs. 
 Finally, a Wilkinson type analogue to digital converter fabricates the digitized charge deposition that can be readout. 
 Once one channel is triggered, the ASIC reads out all 64 channels adding a bit of information to tag them as
-triggered or not triggered and the information is stored in 15 cell deep physical switched capacitor array (SCA).
+triggered or not triggered and the information is stored in a 15 cell deep physical switched capacitor array (SCA).
 
 The SKIROC ASICs can be power-pulsed by taking advantage of the ILC spill structure: 
 the bias currents of the ASIC can be shut down during the idle time between bunch trains.
@@ -167,7 +167,8 @@ and for first time in long periods of data taking in beam test.
     \includegraphics[width=4in]{../figs/ASU_geometry1.eps}  \\
     \includegraphics[width=4in]{../figs/ASU_geometry2.eps}  \\
   \end{tabular}
-  \caption{Repartition of the ASIC (up) and channels (down) in one ASU. In this perspective, the Si-Sensors are in glued in the back.
+  \caption{Repartition of the ASIC (up) and channels (down) in one ASU. In this perspective, the PCB is in the top
+    and the sensors are in glued in the back.
     The channels are separated (in x and y) by 5.5 mm.
     The empty cross in the middle of the ASU corresponds to the 1 mm separation between the sensors.
     The areas covered by the different ASICs and channels
@@ -184,8 +185,9 @@ further with 16 SKIROC2 ASICs for the read out and features 1024 square pads (64
 The channels and ASICs are distributed along the ASU as shown in Figure \ref{ASU}. Each ASU is equipped with 4 silicon wafers as the described in Section \ref{sec:wafers}.
 The high voltage is delivered to the wafers using a HV-kapton sheet that covers the full extension of the wafers.
 
-Current version of the PCB is called the FEV11. It has a thickness of 1.6mm and 2.7mm
-if we include on top the ASICs in its current packaging (1.1 mm thick LFBGA package).
+The current version of the PCB is called the FEV11. It has a thickness of 1.6mm which
+grows up to 2.7mm when the ASICs in its current packaging (1.1 mm thick LFBGA package) are
+bonded in top of it.
 With these characteristics, a potential density of
 3800 channels/dm$^{3}$ is achievable keeping the space and
 interaction length requirements of the the baseline design of the ECAL forthe ILD.
@@ -199,13 +201,14 @@ quarter of the ASUs surface \cite{Amjad:2014tha}.
 \subsection{Data AcQuisition system}
 \label{sec:DAQ}
 
-The subsequent chain of the data acquisition (DAQ)\cite{Gastaldi:2014vaa} system consists of three components, enumerate from upstream to downstream from the data flow perspective:
+The subsequent chain of the data acquisition (DAQ)\cite{Gastaldi:2014vaa} system consists of three components.
+They are enumerated from upstream to downstream from the data flow perspective:
 
 \begin{enumerate}
 \item The first component is the so called detector interface (DIF) which is placed at the beginning of each layer holding up to 15 ASUs.
 \item All DIFs are connected by single HDMI cables to the concentrator cards as the second component: the Gigabit Concentrator Cards (GDCCs). These cards are used to control up to 7 DIFs. They collect all data from the DIFs and distribute among them the system clock and fast commands.
   \item The most downstream component, is the clock and control card (CCC) which
-provides a clock, control fan-out of up to 8 GDCCs and accepts and distributes external signals (i.e. signals
+provides a clock, the control fan-out of up to 8 GDCCs and accepts and distributes external signals (i.e. signals
 generated external pulse generator to simulate the ILC spill conditions).
 \end{enumerate}
 
@@ -221,16 +224,16 @@ The whole system is controlled by the Calicoes and the Pyrame DAQ software versi
 \label{ASU2}
 \end{figure}
 
-A full equipped readout module is shown in Fig. \ref{ASU2}. These modules are called
+A fully equipped readout module is shown in Fig. \ref{ASU2}. These modules are called
 SLABs and consist of a chain of one or several fully equipped ASUs
 connected to a data acquisition system (DAQ) through an adapter board, called SMBv4.
 The SMBv4 also serves as to hold other
 services as power connectors or the super capacitances used for the power pulsing. 
-These capacitances of 400mF with 16 m$\Omega$ of equivalent serial resistance. 
-The capacitances are extra dimensioned to provide enough local storage 
+These capacitances of 400mF with 16 m$\Omega$ of equivalent serial resistance
+are extra dimensioned to provide enough local storage 
 of power to assure stable low voltage levels during the power pulsing. %In this configuration
 %the high currents are still crossing the interconnections/
-The readout modules are embedded on a "U" shape carbon structure to protect the wafers.
+The readout modules are embedded on a "U" shaped carbon structure to protect the wafers.
 The full system is then covered by two aluminum plates
 to provide electromagnetic shielding and mechanical stability.
 
@@ -256,7 +259,8 @@ e.g. the ILD detector.
 
 A picture showing the SiW-ECAL technological prototype setup can be seen in Figure \ref{proto}.
 The current prototype consists on 7 layers of SLABs housed in a PVC and aluminum structure that can host up to 10 layers in slots separated by 15mm each.
-The first six layers were placed in the first six slots and the last one was in the last slot, with respect to the beam. In the following sections, we will refer to layers number 1 to 7, where
+The first six layers were placed in the first six slots and the last one was in the last slot,
+with respect to the beam pipe. In the following sections, we will refer to layers number 1 to 7, where
 the 1 is the closest to the beam pipe and 7 is the farthest.
 This setup is used for commissioning (Section \ref{sec:commissioning}) and for the beam test
 (Section \ref{sec:beamtest}). In both cases, the detector was
@@ -274,11 +278,6 @@ running in power pulsing mode.
 \section{Commissioning}
 \label{sec:commissioning}
 
-This beam test was prepared by a commissioning phase comprising
-the debug of the
-short SLABSs with special emphasis in the control of the noise and the study of the
-prototype performance in cosmic ray tests.
-
 Earlier experiences with the SKIROC2 ASIC are reported in
 Refs. \cite{Amjad:2014tha,Suehara:2018mqk}). 
 Internal SKIROC2 parameters reported in these references are adopted in the following
@@ -295,7 +294,7 @@ to record physics signals bellow the MIP level without saturating our DAQ with
 noise signals. This requires a careful and systematic procedure to:
 
 \begin{enumerate}
-  \item identify the readout channels that are noisy in high trigger threshold above MIP signal conditions
+  \item identify the readout channels that are noisy in high trigger threshold above MIP signal conditions;
   \item and select the optimal trigger threshold levels.
 \end{enumerate}
 
@@ -303,18 +302,26 @@ During the commissioning, we observed the repetition of coherent noise events af
 SLABs at the end of acquisitions with long gating time. The situation
 could be remedied by improving the isolation of the individual SLABs and by reducing the
 data taking to short gating times.
+In any case, all runs dedicated to the commissioning are usually characterized by their short gating windows for the acquisition (1-2ms)
+at low repetition frequencies (1-5 Hz)
+to minimize the chances of having real events due to cosmic
+rays during the data taking.
 
-All runs dedicated to the commissioning were characterized by:
-\begin{itemize}
-  \item their short gating windows for the acquisition (1-2ms)
-   at low repetition frequencies (1-5 Hz) to minimize the chances of having real events due to cosmic rays during the data taking and the coherent noise events due to grounding issues;
- \item and the relatively high trigger threshold values, between 2 and 0.5 MIPs.
-\end{itemize}
 
 \subsection{Tagging and control of the noisy channels.}
 \label{sec:comm_noise}
 
-We found to different types of noisy channels. One set consists of
+The list of the noisy channels was
+obtained by means of dedicated data taking runs. In these runs
+we scan relatively high trigger thresholds (between 1-3 MIPs) and progressively mask channels that exhibit counts. 
+In each step, the decision of tagging a channel as noisy was taking following the next rules:
+
+\begin{itemize}
+\item if the channel was triggered at rates larger than 0.5-1\% of the total number of triggers per ASIC it was added to the list;
+\item if a channel was tagged as noisy in, at least, three of the SLABs, it was tagged as noisy for all and added to the list of channels being suspect of suffer from routing issues.
+\end{itemize}
+
+Following this procedure, we found to different types of noisy channels. One set consists of
 channels randomly distributed along the surface of every ASU and the other consists
 of channels located in specific areas and systematically noisy in all the ASUs. Preliminary inspections of the PCB layout
 hint that the channels in the latter set may be noisy due to
@@ -324,18 +331,8 @@ All the noisy channels have been identified and masked and the power
 of their preamplifiers has been disabled. All the results shown in the following
 sections are obtained in these conditions.
 
-The list of the noisy channels was
-obtained by means of dedicated data taking runs. In these runs
-we scan trigger thresholds and progressively mask channels that exhibit counts. 
-In each step, the decision of tagging a channel as noisy was taking following the next rules:
-
-\begin{itemize}
-\item if the channel was triggered at rates larger than 0.5-1\% of the total number of triggers per ASIC it was added to the list;
-\item if a channel was tagged as noisy in, at least, three of the SLABs, it was tagged as noisy for all and added to the list of channels being suspect of suffer from routing issues.
-\end{itemize}
-
 In addition to the different noisy channel types described above, we also have
-masked full sectors of the SLABs if an ASIC was faulty (at least 70\% of channels 
+masked full sectors of the SLABs if an ASIC was tagged as faulty (at least 70\% of channels 
 listed as noisy) or if a Si-wafer was damaged (high leakage currents).
 The results of this study is summarized in Figure \ref{noisycells}.
 
@@ -358,7 +355,7 @@ in the second plot since they are fully masked.}
 \label{sec:comm_trigger}
 
 After the noisy channels have been masked, dedicated trigger threshold
-scan run are taken, and the results are shown in threshold scan curves where the
+scan runs are taken, and the results are shown in the threshold scan curves where the
 x-axis represents the threshold value and the y-axis
 the number of recorded signals normalized to 1. The threshold values are given in internal DAC units
 which are translated to meaningful physical quantities in Section \ref{sec:comm_trigger_sn}.
@@ -375,11 +372,9 @@ These threshold scan curves are approximated by a complementary error function:
 \end{equation}
 where $p_{0}$ is 1/2 of the normalization, $p_{1}$ is the value in which the noise levels are 
 the 50\% of its maximum and $p_{2}$ give us the width of the threshold scan curve. 
-
 In Figure \ref{scurve_channels} 
 two threshold scans curves are shown together with the fit by
-the theoretical function for two different channels from the second
-layer of the setup are shown.
+the theoretical function.
 
 \begin{figure}[!ht]
   \centering
@@ -394,10 +389,10 @@ layer of the setup are shown.
 For every ASICs, after performing the fit of the theoretical curves
 to the threshold scans, the average values of the   $p_{1}$ and $p_{2}$ are calculated.
 These are represented by $<p_{1,2}^{ASIC}>$ in the following.
-The final threshold value of every ASIC, in DAC units, was chosen 
+The optimal threshold value of every ASIC, in DAC units, was chosen 
 using the following formula
 \begin{equation}
-Threshold{optimal}^{ASIC} =maximum(<p_{1}^{ASIC}> + 5 \times <p_{2}^{ASIC}>,230).
+DAC_{optimal}^{ASIC} =maximum(<p_{1}^{ASIC}> + 5 \times <p_{2}^{ASIC}>,230).
 \end{equation}
 This formula was applied 
 if at least the the 30\% of the 64 channels in the ASIC could be fitted.
@@ -409,9 +404,9 @@ The optimal trigger threshold values for all ASICs are shown in Figure \ref{trig
 \label{sec:comm_trigger_sn}
 
 Performing threshold scan scurves using
-real signals allow to calculate the signal over noise (S/N) ratio to trigger.
+real signals allow to calculate the signal over noise (S/N) ratio.
 For that we compare the curves for 1 MIP and 2 MIP injected signals.
-The S/N is, therefore, defined as the ratio between the distance of both curves at its
+The S/N is, in the following, defined as the ratio between the distance of both curves at its
 50\% and the width of the curves.
 In Figure \ref{scurves_injection} we see the 1 MIP and 2 MIP curves obtained for several channel
 in a SKIROC testboard in which a single SKIROC2 in BGA package is placed and the 1 MIP and 2 MIPs 
@@ -448,8 +443,8 @@ From these two results we extract the value of
 \begin{equation}
   S/N=12.9\pm3.4
 \end{equation}
-for the trigger branch. The central value is calculated from the comparison of the blue and red curves
-in Figure \ref{SKIROC2} and using the width of the 1 MIP curve in the denominator. The estimated
+for the trigger branch. The central value is calculated from Figure \ref{SKIROC2} by
+the comparison of the 1 and 2 MIP curves and using the width of the 1 MIP curve in the denominator. The estimated
 uncertainty has two components: the difference of width between the 1 and 2 MIP curves of injected signals and the differences (width and middle point) between the 1 MIP curves for injected and
 cosmic ray signals.
 
@@ -474,13 +469,13 @@ in beam are shown.
 The commissioning procedure described above relies on very conservative decisions
 due to the presence of unknown noise sources during largest of the commissioning phase.
 These sources are
-now well know and therefore a new ``noise commissioning procedure'' has been studied.
+now well know and therefore a new noise commissioning procedure has been studied.
 It will consist on an iterative algorithm that first
 will identify and mask the channels
 in which the number of triggers per channel will be compared with the number of expected triggers
 assuming only cosmic rays as signal. This will allow us to have a
 definition of the noise levels for each channel independently
-instead of relative to the total number of triggers recorded by
+instead of relatively to the total number of triggers recorded by
 the ASIC. Finally, once the noisy channels
 are identified, the threshold  are further optimized
 with a last run for the identification of the residual noisy channels.
@@ -501,7 +496,7 @@ and MIP-acting particles traversing the detector tilted by 45 degrees with respe
 
 
 The beam line at DESY provides continuous positron beams in the energy range of 1 to 6 GeV with
-rates from a few hundreds of Hz to a few KHz with a maximum of $\sim 3$ KHz for 2-3 GeV. 
+rates from a few hundreds of Hz to a few kHz with a maximum of $\sim 3$ kHz for 2-3 GeV. 
 In addition, DESY gives access to a bore 1 T solenoid, the PCMag.
 
 The physics program of the beam test can be summarized in the following points:
@@ -532,7 +527,7 @@ a magnetic field in Section \ref{sec:magnetic} and in electromagnetic shower
 events in Section \ref{sec:showers}. The study of the calibration of the prototype
 in electromagnetic shower events is due to a future publication.
 
-\subsection{Noise studies and MIP calibration}
+\subsection{Noise study and MIP calibration}
 \label{sec:calib}
 
 In Figure \ref{signal_pedestal} we show the signal and pedestal distribution of a single channel after
@@ -594,11 +589,11 @@ The remaining channels will be discarded. Results are summarized in figure \ref{
 \label{mipandSN}
 \end{figure}
 
-As a sumamry Figure \ref{mip3peaks} shows the response of all channels integrated over the calibration run.
+The Figure \ref{mip3peaks} shows the response of all channels integrated over the calibration run.
 This plot is obtained after further refinement of the sample by selecting incident tracks.
 The maximum peaks at 1 MIP as expected after a good calibration.
 In addition to this, a second and a third peaks
-are visible as shoulders. These shoulder are associated to 
+are visible as shoulders. These shoulders are associated to 
 events involving multiple 
 particles crossing the detector.
 
@@ -619,8 +614,9 @@ check which layers have or not a hit in the same or in the closest neighboring c
 We repeat this procedure for all channels.
 The results are shown in Figure \ref{efficiency}. Except few exceptions, the efficiency is 
 compatible with $100\%$.
-Lower efficiencies in the first layer are related to the presence of
-noisy channels not spotted during the commissioning. In the last layer we also observe few small deviations
+The low efficiencies in the first layer are related to the presence of
+noisy channels not spotted during the commissioning. These channels
+may saturate de acquisition in their ASICs. In the last layer we also observe a few small deviations
 which are associated to the outliers channels, hinting for a small misalignment of the last layer.
 
 \begin{figure}[!t]
@@ -634,14 +630,19 @@ which are associated to the outliers channels, hinting for a small misalignment 
 \end{figure}
 
 
-\subsubsection{S/N ratio in the charge measurement for MIP interactions}
+\subsubsection{Power of signal separation for MIP-size signals}
 \label{sec:sn}
 
-The signal-over-noise ratio in the charge measurement (corresponding to the slow shaper of the SKIROC2) is defined 
+The power of signal separation for MIP size signals is defined 
 as the ratio between the most-probable-value of
 the Landau-gauss function fit to the data (pedestal subtracted) and the noise (the pedestal width). This quantity 
 has been calculated for all channels and all layers. 
 Results are summarized in Figure \ref{mipandSN}, rightmost plot.
+It is important to remark that this definition corresponds to what
+has been called so far as the S/N of the SiW-ECAL (see for example Ref. \cite{Amjad:2014tha}).
+However, we think that it is more correct to define the S/N of the detector
+in the trigger decission line and use the power of signal separation concept
+for the the quantity described at the beginning of the paragraph.
 
 \subsection{Pedestal and noise stability in a magnetic field}
 \label{sec:magnetic}
@@ -744,16 +745,16 @@ allowing us to identify and isolate the different noise sources that could spoil
 The beam test has provided a lot of useful data to study 
 the performance of the detector and to perform
 a channel by channel calibration, showing a good homogeneity with a spread of the 5\% for all channels.
-The signal over noise, S/N, of the detector has been evaluated to be $12.9\pm3.4$ for the trigger
-decission and $20.4\pm1.5$ for the charge measurement.
+The signal over noise, S/N, of the detector has been evaluated to be $12.9\pm3.4$.
+The power of signal separation for signals of 1 MIP is $20.4\pm1.5$.
 
 \section{Outlook}
 \label{sec:outlook}
 
 In parallel to the work described here, several R\&D efforts are being carried.
 One of these efforts is directed to the design and test of new ASICs.
-In fact, a new generation of SKIROC2, the 2a, has been delivered
-and it is being tested in the dedicated testboards and it has been integrated in new ASUs.
+In fact, a new generation of the SKIROC, the 2a, has been delivered, tested in the dedicated testboards
+and it has been integrated in new ASUs.
 In addition, a new generation of the ASIC, SKIROC3, is foreseen for the final detector construction.
 In contrast with SKIROC2/2a, the new ASIC will be fully optimized for ILC operation, {\it i.e.} full zero suppression, reduced power consumption etc.
 
@@ -775,7 +776,7 @@ In this alternative PCB design the ASICs
 are directly placed on board of the PCB in dedicated cavities.
 The ASICS will be in semiconductor packaging and wire bonded to the PCB. This is the so-called COB (chip-on-board) version of the ASU.
 A small sample of FEV11\_COBs (same connexion pattern with the interface card than FEV11)
-with a total thickness of 1.2 mm (to be compared with the 2.7 of the LFBGA solution)
+with a total thickness of 1.2 mm (to be compared with the 2.7 of the LFBGA solution in the FEV11)
 has been produced and tested in the laboratory
 showing its readiness for tests with particle beams. A sample can be seen in Figure \ref{cob}.
 These new boards maximize the density of channels (6000 channels/dm$^{3}$) for the ECAL of the ILD
@@ -855,7 +856,7 @@ ASICs far from the beam spot is higher than in the ASICs that are reading
 out the information of real hits. We have also observed that the concentration of these events
 is higher in the nearby of channels that were masked as suspicious of suffering from routing issues.
 The ratio these events have been estimated to be of $1-3\%$ in the ASICs where high frequency
-interactions are produced ({\it i.e.} using 3 GeV positrons ate 2-3 KHz) and at higher rates even larger than $40\%$ in other 
+interactions are produced ({\it i.e.} using 3 GeV positrons ate 2-3 kHz) and at higher rates even larger than $40\%$ in other 
 ASICs far from the beam spot. 
 Moreover, it has been noticed a correlation between the time that an ASIC was full and the time of the appearance of some 
 retriggers in other areas of the PCB. 
