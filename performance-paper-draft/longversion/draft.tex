@@ -23,7 +23,7 @@
 
 \abstract{
   High precision physics at future colliders as the International Linear Collider (ILC) require unprecedented high precision in the determination
-  of the final state of the particles produced in the collissions
+  of the final state of the particles produced in the collisions
   The needed precision will be achieved thanks to the Particle Flow algorithms (PF) which require compact, highly granular and hermetic calorimeters systems.
   The Silicon-Tungsten Electromagnetic Calorimeter (SiW-ECAL) technological prototype
   design and R\&D is oriented at the baseline design of the ECAL of the International Large Detector (ILD) for the ILC.
@@ -45,7 +45,7 @@ Future accelerator based particle physics experiments
 require very precise and detailed reconstruction of the final states produced
 in the beam collisions. A particular example is the next generation of $e^{+}e^{-}$
 linear colliders such the ILC\cite{Behnke:2013xla,Baer:2013cma,Adolphsen:2013jya,Adolphsen:2013kya,Behnke:2013lya}.
-This project will provide collisions of polarized beams with centre-of-mass energies ($c.m.e$) of 250 GeV - 1 TeV.
+This project will provide collisions of polarized beams with center-of-mass energies ($c.m.e$) of 250 GeV - 1 TeV.
 These collisions will be studied by two multipurpose detectors:
 the International Large Detector (ILD) and the Silicon Detector (SiD)\cite{Behnke:2013lya}.
 To meet the precision levels required by the ILC %or CLIC
@@ -71,9 +71,10 @@ It will be built an alveolar structure of carbon fiber into which modules made o
 plates and the active sensors will be inserted. The very-front-end (VFE) electronics will be
 embedded in the detector units. The silicon sensors will be segmented
 in squared cells (or channels) of 5x5 mm: a total of $\sim 100$ million readout channels will constitute the ECAL for ILD.
-The desired signal dynamic range in each channel goes from 0.5 MIP to 3000 MIPs.
+The desired signal dynamic range in each channel goes from 0.5 MIP to 3000 MIPs, where the MIP acronym stands 
+for the energy deposited by a minimum-inonizing-particle.
 To reduce overall power consumption, the SiW-ECAL will exploit the special bunch structure
-foreseen for the ILC: the $e^{+}e^{-}$ bunchs trains will arrive in spills
+foreseen for the ILC: the $e^{+}e^{-}$ bunches trains will arrive in spills
 of $\sim$ 1-2 ms width separated by $\sim$ 200 ms. The data acquisition will be gated during these short windows and during the idle time the bias currents of the electronics will be shut down.
 This technique is usually denominated power pulsing. In addition to this, to cope with the large amount of channels,
 the calorimeters should work in self-trigger mode (each channel featuring an internal trigger decision chain) and zero suppression mode. 
@@ -100,7 +101,7 @@ power consumption reduction through power pulsing and VFE inside the detector cl
 It will also provide data to deeply study the PF and provide input to tune simulation programs as for example
 GEANT4\cite{Agostinelli:2002hh,Allison:2006ve,Allison:2016lfl} which is widely used
 in particle physics to simulate the passage of particles through matter. In this section we described in detail
-the main features and characteristics of the technollogical prototype.
+the main features and characteristics of the technological prototype.
 
 \subsection{Silicon sensors}
 \label{sec:wafers}
@@ -191,7 +192,7 @@ interaction length requirements of the the baseline design of the ECAL forthe IL
 This number should be compared with
 the density achieved in beam tests with the physics prototype: 1500 channels/dm$^{3}$.
 With the first versions
-of the technollogical prototype we reached similar potential density level as in
+of the technological prototype we reached similar potential density level as in
 the current version but equipping only a
 quarter of the ASUs surface \cite{Amjad:2014tha}.
 
@@ -253,13 +254,13 @@ e.g. the ILD detector.
 \subsection{The prototype setup}
 \label{sec:setup2}
 
-A photograph showing the SiW-ECAL technollogical prototype setup can be seen in Figure \ref{proto}.
-Current prototype consists on 7 layers of SLABs housed by a PVC and aluminum structure that can hold up to 10, in slots separated by 15mm each.
-The first six layers were placed in the first six slots and the last one was in the last slot. In the following sections, we will refer to layers number 1 to 7, where
+A picture showing the SiW-ECAL technological prototype setup can be seen in Figure \ref{proto}.
+The current prototype consists on 7 layers of SLABs housed in a PVC and aluminum structure that can host up to 10 layers in slots separated by 15mm each.
+The first six layers were placed in the first six slots and the last one was in the last slot, with respect to the beam. In the following sections, we will refer to layers number 1 to 7, where
 the 1 is the closest to the beam pipe and 7 is the farthest.
 This setup is used for commissioning (Section \ref{sec:commissioning}) and for the beam test
 (Section \ref{sec:beamtest}). In both cases, the detector was
-running in power pulsing mode.
+running in power pulsing mode. 
 
 \begin{figure}[!ht]
 \centering
@@ -305,29 +306,28 @@ data taking to short gating times.
 
 All runs dedicated to the commissioning were characterized by:
 \begin{itemize}
-  \item their short gating windows for the acqusition (1-2ms)
+  \item their short gating windows for the acquisition (1-2ms)
    at low repetition frequencies (1-5 Hz) to minimize the chances of having real events due to cosmic rays during the data taking and the coherent noise events due to grounding issues;
- \item and the relatively high trigger threshold values between 400 and 250 DAC 
-(which are equivalent to $\sim$2 and $\sim$0.5 MIP respectively, see Section \ref{sec:comm_trigger} for more information).
+ \item and the relatively high trigger threshold values, between 2 and 0.5 MIPs.
 \end{itemize}
 
 \subsection{Tagging and control of the noisy channels.}
 \label{sec:comm_noise}
 
 We found to different types of noisy channels. One set consists of
-channels randomy distributed along the surface of every ASU and the oter consists
-of channels systematically noisy in all the ASUs. Preliminary inspections of the PCB layout
-hint that the channels in the latter set are noisy due to
+channels randomly distributed along the surface of every ASU and the other consists
+of channels located in specific areas and systematically noisy in all the ASUs. Preliminary inspections of the PCB layout
+hint that the channels in the latter set may be noisy due to
 improvable routing of the PCB.
 Deeper studies on the PCB routing must be conducted to clarify this.
 All the noisy channels have been identified and masked and the power
-of their preamplifiers has beem disabled. All the results shown in the following
+of their preamplifiers has been disabled. All the results shown in the following
 sections are obtained in these conditions.
 
 The list of the noisy channels was
 obtained by means of dedicated data taking runs. In these runs
 we scan trigger thresholds and progressively mask channels that exhibit counts. 
-In each step, the decission of tagging a channel as noisy was taking following the next rules:
+In each step, the decision of tagging a channel as noisy was taking following the next rules:
 
 \begin{itemize}
 \item if the channel was triggered at rates larger than 0.5-1\% of the total number of triggers per ASIC it was added to the list;
@@ -346,7 +346,7 @@ The results of this study is summarized in Figure \ref{noisycells}.
   \includegraphics[width=4in]{../figs/commissioning/masked_chip.eps}
   \end{tabular}
 \caption{Fraction of channels that are tagged as noisy in all slabs. 
-Top: inventory of the different type of noisy channels per slab. 
+Top: different type of noisy channels per slab. 
 Bottom: break down of the total number of noisy channels per ASIC. 
 The ASICs 4-7 (wafer issue) and 10 from layer 1 and the ASIC 4 from layer 7 are not included
 in the second plot since they are fully masked.}
@@ -359,9 +359,9 @@ in the second plot since they are fully masked.}
 
 After the noisy channels have been masked, dedicated trigger threshold
 scan run are taken, and the results are shown in threshold scan curves where the
-x-axis represents the threshold value\footnote{The threshold values are given in internal DAC units which are translated to
-meaningful physical quantities in Section \ref{sec:comm_trigger_sn}.} and the y-axis
-the number of recorded signals normalized to 1.
+x-axis represents the threshold value and the y-axis
+the number of recorded signals normalized to 1. The threshold values are given in internal DAC units
+which are translated to meaningful physical quantities in Section \ref{sec:comm_trigger_sn}.
 In the absence of external signals (cosmic rays, injected signals, etc) 
 the falling edge position in the threshold scan curves
 is due to the electronic noise
@@ -374,7 +374,7 @@ These threshold scan curves are approximated by a complementary error function:
 \label{eq_S-curve}
 \end{equation}
 where $p_{0}$ is 1/2 of the normalization, $p_{1}$ is the value in which the noise levels are 
-the 50\% of its maximum and $p_{2}$ give us the width of the ThS curve. 
+the 50\% of its maximum and $p_{2}$ give us the width of the threshold scan curve. 
 
 In Figure \ref{scurve_channels} 
 two threshold scans curves are shown together with the fit by
@@ -397,11 +397,11 @@ These are represented by $<p_{1,2}^{ASIC}>$ in the following.
 The final threshold value of every ASIC, in DAC units, was chosen 
 using the following formula
 \begin{equation}
-DAC_{optimal}^{ASIC} =maximum(<p_{1}^{ASIC}> + 5 \times <p_{2}^{ASIC}>,230).
+Threshold{optimal}^{ASIC} =maximum(<p_{1}^{ASIC}> + 5 \times <p_{2}^{ASIC}>,230).
 \end{equation}
 This formula was applied 
 if at least the the 30\% of the 64 channels in the ASIC could be fitted.
-If not, a global DAC value of 250 was set.
+If not, a global threshold value of 250 was set.
 
 The optimal trigger threshold values for all ASICs are shown in Figure \ref{trigger_thresholds}, in internal DAC units and in MIPs. In the next section we explain how the conversion is done.
 
@@ -422,7 +422,7 @@ in a SKIROC testboard in which a single SKIROC2 in BGA package is placed and the
 \begin{figure}[!t]
     \centering
   \begin{tabular}{l}
-	\includegraphics[width=4in]{../figs/commissioning/scurve_pp_fastshaper_ch.eps} \\
+	\includegraphics[width=4in]{../figs/commissioning/scurve_pp_fastshaper_ch_DAC.eps} \\
 	\end{tabular}
 \caption{Threshold scan curves with charge injection (1 MIP in blue and 2 MIPs in red) for two different channels in a SKIROC2 testboard.}
 \label{scurves_injection}
@@ -487,7 +487,7 @@ with a last run for the identification of the residual noisy channels.
 
 Using this new procedure we manage to reduce the number of masked channels by a factor of two
 without any loss of performance, at least in the laboratory and using 3 of the 7 SLABs.
-This new procedure will alo be applied in the next beam test.
+This new procedure will also be applied in the next beam test.
 Also, in order to
 optimize the commissioning of the detector,
 we propose a new set of measurements in the next beam test such as
@@ -496,60 +496,54 @@ can be done by the comparison of threshold curves taken with incident MIP-acting
 and MIP-acting particles traversing the detector tilted by 45 degrees with respect to the beam direction.
 
 
-\section{Performance on positron beam test at DESY}
+\section{Performance in a beam test with positrons at DESY}
 \label{sec:beamtest}
 
 
-The beam test line at DESY provides continuous positron beams in the energy range of 1 to 6 GeV with
-rates from few hundreds of Hz to few KHz with a maximum of $\sim 3$ KHz for 2-3 GeV. 
-The particles beam ies produced as follows: first, the electron/positron synchrotron DORIS II 
-is used to produced a photon beam via bremsstralhung when interacting with a carbon fiber target;
-secondly, these photons are then converted to electron/positron pairs; 
-and, finally, the beam energy is selected with dipole magnets and collimators. 
-In addition, DESY gives acces to a bore 1 T solenoid, the PCMag.
+The beam line at DESY provides continuous positron beams in the energy range of 1 to 6 GeV with
+rates from a few hundreds of Hz to a few KHz with a maximum of $\sim 3$ KHz for 2-3 GeV. 
+In addition, DESY gives access to a bore 1 T solenoid, the PCMag.
 
 The physics program of the beam test can be summarized in the following points:
 
 \begin{enumerate}
-\item Calibration without tungsten absorber using 3 GeV positrons acting as minimum ionizing particle (MIPs) directed to 81 position equally distributed over the modules.
+\item Calibration without tungsten absorber using 3 GeV positrons acting MIPs directed to 81 position equally distributed over the modules.
 \item Test in magnetic field up to 1 T using the PCMag. For this test a special PVC structure was
-designed and produced to support one single SLAB.	
-The purpose of such test was twofold: first to prove that the DAQ, all electronic devices and the 
-mechanical consistency of the SLAB itself are able
-to handle strong magnetic fields; 
-second to check the quality of the data and the performance of the detector during the data taking when running
-in a magnetic field.
-\item Response to electrons of different energies with fully equipped detector, i.e. sensitive parts {\it and} W absorber, with three different repartitions of the absorber material:
-\begin{itemize}
-\item W-configuration 1: $0.6,1.2,1.8,2.4,3.6,4.8$ and $6.6~X_{0}$
-\item W-configuration 2: $1.2,1.8,2.4,3.6,4.8,6.6$ and $8.4~X_{0}$
-\item W-configuration 3: $1.8,2.4,3.6,4.8,6.6,8.4$ and $10.2~X_{0}$
-\end{itemize}
+  designed and produced to support one single SLAB.	
+  The purpose of such test was twofold: first to prove that the DAQ, all electronic devices and the 
+  mechanical consistency of the SLAB itself are able
+  to handle strong magnetic fields; 
+  second to check the quality of the data and the performance of the detector during the data taking when running
+  in a magnetic field. 
+  \item Response to electrons of different energies with fully equipped detector, i.e. sensitive parts {\it and} W absorber, with three different repartitions of the absorber material:
+  \begin{itemize}
+  \item W-configuration 1: $0.6,1.2,1.8,2.4,3.6,4.8$ and $6.6~X_{0}$
+  \item W-configuration 2: $1.2,1.8,2.4,3.6,4.8,6.6$ and $8.4~X_{0}$
+  \item W-configuration 3: $1.8,2.4,3.6,4.8,6.6,8.4$ and $10.2~X_{0}$
+  \end{itemize}
 \end{enumerate}
 
 First reports on this beam test can be find in
-Refs. \cite{Irles:2018uum,Irles:2018hcd}. In this paper we discuss in more detail
-the results of the pedestal, noise and MIP calibration in Section \ref{sec:calib}.
+Refs. \cite{Irles:2018uum,Irles:2018hcd}. These results have extended and
+are discussed in the following sections. In Section \ref{sec:calib} we discuss in detail
+the results of the pedestal, noise and MIP calibration.
 We show also results on the pedestal and noise stability when running inside
-a magnetic field in Section \ref{sec:magnet}. Finally, a first peek to the 
-response and stability of the detector in electromagnetic showers events is discussed in 
-Section \ref{sec:showers}. 
+a magnetic field in Section \ref{sec:magnetic} and in electromagnetic shower
+events in Section \ref{sec:showers}. The study of the calibration of the prototype
+in electromagnetic shower events is due to a future publication.
 
-\subsection{Response to MIP-acting positrons}
+\subsection{Noise studies and MIP calibration}
 \label{sec:calib}
 
-The calibration runs have been used to calculate the pedestal distribution reference values 
-and the noise levels (the width of the pedestal distrution) of each channel.
 In Figure \ref{signal_pedestal} we show the signal and pedestal distribution of a single channel after
-subtracting the pedestal mean position. The results of the MIP calibration fit are shown in red (see Section \ref{sec:mip} for more details)
-The pedestal distribution is shown only for the first SCA to keep the y-axis within a reasonable range.
+subtracting the pedestal mean position. The results of the MIP calibration fit are shown in red.
 The signal distribution is integrated over all SCAs.
+For cosmetic reasons the pedestal distribution is shown only for the first SCA.
 
-\subsubsection{Pedestal and noise determination}
-\label{sec:pedestal}
+%\subsubsection{Pedestal and noise determination}
+%\label{sec:pedestal}
 
-
-\begin{figure}[!t]
+\begin{figure}[!ht]
   \centering
   \begin{tabular}{l}
     \includegraphics[width=4in]{../figs/mip_pedestal_example.eps}
@@ -559,30 +553,25 @@ The signal distribution is integrated over all SCAs.
 \end{figure}
 
 The pedestal is calculated as the mean position of
-the ADC distribution of channels without trigger. The noise is
-associated to the width of such distribution.
-The pedestal correction is done layer-, chip-, channel- and SCA-wisely due to the large spread of values between pedestals, as observed in 
+the distribution of the ADC values for all channels without trigger. The noise is
+associated to the width of the distribution.
+The pedestal correction is done layer-, chip-, channel- and SCA-wise due to the large spread of values between pedestals, as observed in 
 Figure \ref{pedestal_layer} (left plot) and Figure \ref{pedestal_all} (also left plot).
 For the noise, the dispersion is much smaller ($\sim 5 \%$). This is shown in the right plots of Figures \ref{pedestal_layer} and \ref{pedestal_all}.
 From now on, the pedestal correction is applied to all the results presented.
-
-%\begin{figure}[!t]
-%  \centering
-%  \begin{tabular}{ll}
-%    \includegraphics[width=2.8in]{../figs/pedestal/ped_mean_layer2_chip4_cell10.eps} & \includegraphics[width=2.8in]{../figs/pedestal/ped_width_layer2_chip4_cell10.eps}
-%  \end{tabular}
-%  \caption{Pedestal mean position (left) and width (right) for one channel in the second layer.}
-%\label{pedestal_channel}
-%\end{figure}
+The resulting spectra are fit by
+a Landau function convoluted with a Gaussian.
+The most-probable-value of the convoluted function is taken as the MIP value, allowing thus for a direct
+conversion from ADC units to energy in MIP units.
+The fit succeeded in 98\% of the cases and the spread of the resulting MPV is 5\%.
+The remaining channels will be discarded. Results are summarized in figure \ref{mipandSN}, leftmost plot.
 
 \begin{figure}[!t]
   \centering
   \begin{tabular}{ll}
     \includegraphics[width=2.8in]{../figs/pedestal/ped_mean_layer2.eps} & \includegraphics[width=2.8in]{../figs/pedestal/width_mean_layer2.eps}
   \end{tabular}
-  \caption{Pedestal mean position (upper plot) and width (lower plot) for all channels in one layer. The data is grouped on bunches in which the value in the x-axis
-    corresponds to the value of the channel number plus the value of the ASIC number multiplied by 100. The black points show the value for the first SCA
-    and the red points show the average value for all the others SCAs (with the standard deviation of the sample as error bar).}
+  \caption{Pedestal mean position (left plot) and width (right plot) for all channels in one layer.}
 \label{pedestal_layer}
 \end{figure}
 
@@ -595,15 +584,6 @@ From now on, the pedestal correction is applied to all the results presented.
 \label{pedestal_all}
 \end{figure}
 
-\subsubsection{Energy calibration and tracking efficiency}
-\label{sec:mip}
-
-After the pedestals are calculated and subtracted to the hit distributions, those are fit by
-a Landau function convoluted with a Gaussian.
-The most-probable-value of the convoluted function is taken as the MIP value, allowing thus for a direct
-conversion from ADC units to energy in MIP units.
-We have obtained a raw energy calibration spread of the 5\% among all channels with the 98\% of all 
-available channels being fitted. Results are summarized in figure \ref{mipandSN}, leftmost plot.
 
 \begin{figure}[!t]
   \centering
@@ -614,14 +594,11 @@ available channels being fitted. Results are summarized in figure \ref{mipandSN}
 \label{mipandSN}
 \end{figure}
 
-We checked the MIP 
-calibration in all callibrated channels by selecting tracks
-incident perpendicullary to the layers surface.
-The results are shown in figure \ref{mip3peaks} where the single channel energy 
-distribution for MIPs is shown for all calibrated channels in the same distribution. 
+As a sumamry Figure \ref{mip3peaks} shows the response of all channels integrated over the calibration run.
+This plot is obtained after further refinement of the sample by selecting incident tracks.
 The maximum peaks at 1 MIP as expected after a good calibration.
-In addition to this, a second and a third peak
-appear visible. These peaks are due to
+In addition to this, a second and a third peaks
+are visible as shoulders. These shoulder are associated to 
 events involving multiple 
 particles crossing the detector.
 
@@ -630,7 +607,7 @@ particles crossing the detector.
     \begin{tabular}{ll}
       \includegraphics[width=4in]{../figs/MIP/MIP3peaks.eps} 
     \end{tabular}
-    \caption{Energy distribution for all callibrated channels when selecting tracks of 3 GeV positron acting as MIPs.}
+    \caption{Energy distribution for all calibrated channels when selecting incident tracks of 3 GeV positron acting as MIPs.}
 \label{mip3peaks}
 \end{figure}
 
@@ -638,25 +615,21 @@ To evaluate
 the single hit detection efficiency we define a high purity sample of
 events by selecting
 tracks with at least 4 layers with a hit in exactly the same channel. Afterwards we 
-check if the other layers have or not a hit in the same channel (expanding the search
-to the closest neighbouring channels) with energy larger or equal than 0.3 MIP.
-Finally, we repeat this for all layers 
-and channels. The results are shown in Figure \ref{efficiency}. Except few exceptions, the efficiency is 
+check which layers have or not a hit in the same or in the closest neighboring channels with energy larger or equal than 0.3 MIP.
+We repeat this procedure for all channels.
+The results are shown in Figure \ref{efficiency}. Except few exceptions, the efficiency is 
 compatible with $100\%$.
 Lower efficiencies in the first layer are related to the presence of
-noisy channels not spotted during the commissioning. In the last layer (separated from the
-other layers by four slots of 1.5 cm instead of only one) we also observe few small deviations
-from the $\sim100\%$ which are indeed
-associated to a slight misalignment of the detector.
-If we remove these channels from the analysis
-the full efficiency is recovered.
+noisy channels not spotted during the commissioning. In the last layer we also observe few small deviations
+which are associated to the outliers channels, hinting for a small misalignment of the last layer.
 
 \begin{figure}[!t]
   \centering 
-    \begin{tabular}{ll}
-      \includegraphics[width=2.8in]{../figs/MIP/efficiency_nhits4_chips.eps} & \includegraphics[width=2.8in]{../figs/MIP/efficiency_nhits4_chips_zoom.eps} \\
-    \end{tabular}
-    \caption{Left: MIP detection efficiency for all layers and ASICs in high purity samples of tracks of MIP-like acting particles. Right: same figures with a zoom in the y-axis. In both cases, the average efficiency of the 64 channels in each ASIC is shown.}
+   % \begin{tabular}{ll}
+  \includegraphics[width=4in]{../figs/MIP/efficiency_nhits4_chips.eps}
+  %& \includegraphics[width=2.8in]{../figs/MIP/efficiency_nhits4_chips_zoom.eps} \\
+  %  \end{tabular}
+  \caption{MIP detection efficiency for all layers and ASICs in high purity samples of tracks of MIP-like acting particles.}
 \label{efficiency}
 \end{figure}
 
@@ -667,20 +640,24 @@ the full efficiency is recovered.
 The signal-over-noise ratio in the charge measurement (corresponding to the slow shaper of the SKIROC2) is defined 
 as the ratio between the most-probable-value of
 the Landau-gauss function fit to the data (pedestal subtracted) and the noise (the pedestal width). This quantity 
-has been calculated for all channels and all layers. The average S/N is to 20.4.
+has been calculated for all channels and all layers. 
 Results are summarized in Figure \ref{mipandSN}, rightmost plot.
 
 \subsection{Pedestal and noise stability in a magnetic field}
 \label{sec:magnetic}
 
-The data taking inside the magnetic field has been divided in three steps:
-a) a with a magnetic field of 1 T; b) a run with 0.5 T; c) a final run with the magnet off.
-The beam, 3 GeV positrons, was hitting in the area of the PCB readout by the ASIC number 12.
+The data taking inside the magnetic field has been divided in three runs:
+\begin{enumerate}
+\item a with a magnetic field of 1 T;
+\item a run with 0.5 T;
+\item and a final run with the magnet off.
+\end{enumerate}
 
+The beam, 3 GeV positrons, was directed in the area of the PCB readout by the ASIC number 12.
 The pedestal positions and noise levels of the channels of the ASIC 12 when the
 SLAB is inside of the PCMag are compared with the results from the calibration run described in the previous section.
 This is shown in Figure \ref{pedestal_magnetic}.
-We see that the agreement is perfect within the statistical uncertainties.
+We see that the agreement is perfectly good within the statistical uncertainties.
 Due to the lower rates in this beam area, the
 analysis is only done up to few SCAs.
 
@@ -699,12 +676,12 @@ analysis is only done up to few SCAs.
 In this section we discuss the pedestal stability in events with large amount of charge collected by the ASICs, as are the 
 electromagnetic shower events. All the results shown in this section correspond to data taken during the tungsten program, 
 using the W-configuration number 2 when shooting the beam in the area registered by the ASIC 12 (and partially in the 13). 
-Only information recorded by ASIC 12 is used in the analysis. For other configurations we get comparable results.
+For simplicity, only information recorded by ASIC 12 will be shown. 
 In order to select a high purity of
 electromagnetic shower like the events, 
 we used a simple criteria: select only events with at least 6 of the layers with at least a hit with E > 0.5 MIP.
 
-\begin{figure}[!t]
+\begin{figure}[!ht]
   \centering 
     \begin{tabular}{ll}
       \includegraphics[width=2.8in]{../figs/pedestal/pedestal_vs_energy_shower.eps} & \includegraphics[width=2.8in]{../figs/pedestal/pedestal_vs_nhits_shower.eps} \\
@@ -712,7 +689,7 @@ we used a simple criteria: select only events with at least 6 of the layers with
     \caption{Left: mean position of the projection of the pedestal distribution of all channels
       calculated when different energies are collected in the ASIC (in bins of 10 MIPs).
       Right: same but as a function of the number of hits. In both cases, the results are shown for few SCA.
-      The points for the curves with SCA larger than zero are slightly shifted in the x-axis to optimize the visualization.}
+      The points for the curves with SCA different than zero are slightly shifted in the x-axis to optimize the visualization.}
 \label{pedestal_shower_1}
 \end{figure}
 
@@ -720,17 +697,12 @@ Two main observations have been extracted from the recalculation of the pedestal
 with the values obtained previously during the calibration runs. The first observation
 consists in a relatively small 
 drift of the pedestal values
-towards lower values when the collected energy is high (or when the number of triggered channels is large).
-%For events with 80 MIPs collected in the ASIC, we have an average drift of the pedestal of $\sim$ 0.05 MIP. 
-This is shown in Figure \ref{pedestal_shower_1} for several SCAs where the
-average of the projection of the pedestal distribution for all channels non triggered in ASIC 12 of layer 3 
-is plot as a function of the total energy measured by the ASIC (or the total number of hits).
-We see that in both cases, the shapes of the curves 
-for each SCA are very similar.
+towards lower values when the collected energy is high {\it i.e.} when the number of triggered channels is large.
+This is shown in Figure \ref{pedestal_shower_1} for several SCAs.
+A small dependence, in all SCAs, of the pedestal position on the amount of charge collected by the
+ASIC is observed.
 This feature is known and it is due to the architecture of the SKIROC2 ASICs 
 where high inrush of currents can slightly shift the baseline of the analogue power supply. 
-%This feature is foreseen to be removed from the SKIROC3 ASICs. 
-
 The second observation extracted from this analysis can be also seen in Figure \ref{pedestal_shower_1} but
 more clearly in Figure \ref{pedestal_shower_2}: in addition
 to the small drift of the pedestal value an SCA-alternate global shift
@@ -748,7 +720,7 @@ Dedicated tests in the laboratory and in the beam are needed in order to clarify
     \begin{tabular}{ll}
       \includegraphics[width=2.8in]{../figs/pedestal/pedestal_deviation_layer3.eps} & \includegraphics[width=2.8in]{../figs/pedestal/pedestal_deviation_4GeV.eps} \\
     \end{tabular}
-    \caption{Left: average value on each SCA of the calculated pedestals for all channels of ASIC 12 in the Layer 3 for different energies of the beam. Right: same but fixing the energy of the beam and comparing several layers.}
+    \caption{Average value over all channels in ASIC 12 of the pedestals position for each SCA in electromagnetic shower events.}
 \label{pedestal_shower_2}
 \end{figure}
 
@@ -771,9 +743,9 @@ A very comprehensive and detailed commissioning procedure has been established a
 allowing us to identify and isolate the different noise sources that could spoil the data taking.
 The beam test has provided a lot of useful data to study 
 the performance of the detector and to perform
-a channel by channel calibration, showing a good homogenity with a spread of the 5\% for all channels.
-The signal over noise of the detector has been evaluated to be 12.8 for the trigger
-decission and 20.4 for the charge measurement using, in both cases, MIP signals as reference.
+a channel by channel calibration, showing a good homogeneity with a spread of the 5\% for all channels.
+The signal over noise, S/N, of the detector has been evaluated to be $12.9\pm3.4$ for the trigger
+decission and $20.4\pm1.5$ for the charge measurement.
 
 \section{Outlook}
 \label{sec:outlook}
@@ -783,21 +755,18 @@ One of these efforts is directed to the design and test of new ASICs.
 In fact, a new generation of SKIROC2, the 2a, has been delivered
 and it is being tested in the dedicated testboards and it has been integrated in new ASUs.
 In addition, a new generation of the ASIC, SKIROC3, is foreseen for the final detector construction.
-In contrast with SKIROC2/2a, the new ASIC will be fully optimized for ILC operaton, {\it i.e.} full zero suppression, reduced power consumption etc.
+In contrast with SKIROC2/2a, the new ASIC will be fully optimized for ILC operation, {\it i.e.} full zero suppression, reduced power consumption etc.
 
 Many efforts are also concentrated in the construction and test of long SLABs
 made of several ASUs enchained since we know that the ILD ECAL will host long layers of up to $\sim$2.5m.
 This device constitutes a technological challenge in both aspects, the mechanical
-(very thin and long structure with fragile sensors in the bottom, complicated assembly procedure...)
-and the electrical (i.e. transmission of signals and high currents).
+(very thin and long structure with fragile sensors in the bottom make complicated the assembly procedure and the handling...)
+and the electrical (we need to ensure and control the transmission of signals and high currents along the full device).
 For example, interconnections between ASUs and between ASU and interface card are one of
 the most involved parts of the assembly
 and require close collaboration between mechanical and electronic engineers.
-The construction and test of a long SLAB prototype
-of $\sim8$ ASUs is currently ongoing.
-%Therefore, many efforts are focused in the construction and test of such long 
-%layers made of chains of ASUs (up to $\sim$15 ASU) 
-%as well as in the standardization of the interconnections. 
+A first long SLAB prototype
+of $\sim8$ ASUs has been already tested in beam test also in DESY in 2018.
 
 In parallel, a different proposal for a thiner ASU
 design is being investigated. This is motivated by the high density of channels
@@ -820,7 +789,7 @@ and will allow to satisfy the baseline requirements of the ECAL for the ILD.
 \end{figure}
 
 Finally, intensive R\&D on the compactification of
-the DAQ towards meeting the ILD tight space requirements is being done by the SiW-ECAL collaboration.
+the DAQ to meet the tight space requirements for the ILD is being done by the SiW-ECAL collaboration.
 
 It is foreseen that all these developments, with the exception of the SKIROC3, will be tested with particle beams during 2018-2019.
 
@@ -844,7 +813,8 @@ The measurements leading to these results have been performed at the Test Beam F
 Several types of fake signals have been observed in the technollogical prototype since its construction and test. A detailed description of them
 can be found in previous articles, as for example, in Ref. \cite{Amjad:2014tha}. All these fake signals are easily identified
 and tagged during the data acquisition and removed afterwards from the analysis
-not introducing any significance loss of performance as can be seen, for example, in the hit detection efficiency plots (see Section \ref{sec:mip}).
+not introducing any significance loss of performance as can be seen, for example,
+in the hit detection efficiency plots (see Section \ref{sec:calib}).
 In the following, we briefly describe the status of the monitoring, debugging and filtering
 of such kind of events.
 
@@ -856,7 +826,8 @@ detected. The empty triggers appear when during
 the acquisition the rising edge of the slow clock falls during the OR64 signal
 and therefore the change to a new SCA is validated twice.
 This effect creates around 17\% of empty events which are easily filter and removed from the
-analysis. The ratio of empty triggers in the new SKIROC2a has been reduced to the $\sim2-3\%$.
+analysis. The ratio of empty triggers in the new SKIROC2a has been reduced to the $\sim2-3\%$
+by reducing the length of the OR64 signal.
 
 \subsubsection*{Plane events and retriggers}
 
@@ -869,20 +840,20 @@ therefore, any voltage dip can ve seen as signal by the preamplifiers.
 Moreover the presence of a high inrush of current
 due to many channels triggered at the same time can create these voltage dips
 and also produce the so called plane events (most of the channels trigered at once).
-In previous studies ({\it i.e.} reference \cite{Amjad:2014tha}), the ratio of retriggers and plane events
-was reduced by improving the power supply stabilization capacitances. It is important to remark that
-all layers and all ASICs analog and digital levels are powered using the same power supply.
-Moreover, the high voltage power supply for the polarization of the PIN diode is also common for all layers
-and the grounding levels of the low and high voltages supplied are shared within the slab.
-Therefore any noise in
-these power supplies or any overload of an ASIC may participate in the creation of fake signals
-in different ASICs and layers.
+In previous studies the ratio of retriggers and plane events
+was reduced by improving the power supply stabilization capacitances. %It is important to remark that
+%all layers and all ASICs analog and digital levels are powered using the same power supply.
+%Moreover, the high voltage power supply for the polarization of the PIN diode is also common for all layers
+%and the grounding levels of the low and high voltages supplied are shared within the slab.
+%Therefore any noise in
+%these power supplies or any overload of an ASIC may participate in the creation of fake signals
+%in different ASICs and layers.
 
 Studying the MIP calibration data of this beam test we have noticed that the 
 concentration of the retriggers and plane events in
 ASICs far from the beam spot is higher than in the ASICs that are reading
-out the information of real hits. Even more, this concentration is even higher near the channels
-37 and the channels masked as suspicious of suffering from routing issues.
+out the information of real hits. We have also observed that the concentration of these events
+is higher in the nearby of channels that were masked as suspicious of suffering from routing issues.
 The ratio these events have been estimated to be of $1-3\%$ in the ASICs where high frequency
 interactions are produced ({\it i.e.} using 3 GeV positrons ate 2-3 KHz) and at higher rates even larger than $40\%$ in other 
 ASICs far from the beam spot. 
@@ -891,10 +862,6 @@ retriggers in other areas of the PCB.
 This correlation corresponds to $\sim$1.6 $\mu$s which hints
 of a distortion on the analogue power supply when
 the signal that informs the DIF that one ASIC memory is full is transmitted through the PCB.
-
-We should point out that these events are easilly filtered out during the analysis (or even during the online monitoring)
-and that no impact is observed
-in the data, {\it i.e.} in the MIP detection efficiency.
 
 %All this information and dedicated studies in the laboratory will be used for the
 %improvement of the power supplying system, the PCB design and for further SKIROC developments 
