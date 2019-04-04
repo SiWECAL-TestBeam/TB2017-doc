@@ -1,0 +1,166 @@
+
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{Behnke:2013xla}
+T.~Behnke, J.~E. Brau, B.~Foster, J.~Fuster, M.~Harrison, J.~M. Paterson
+  et~al., \emph{{The International Linear Collider Technical Design Report -
+  Volume 1: Executive Summary}},
+  \href{https://arxiv.org/abs/1306.6327}{{\ttfamily 1306.6327}}.
+
+\bibitem{Baer:2013cma}
+H.~Baer, T.~Barklow, K.~Fujii, Y.~Gao, A.~Hoang, S.~Kanemura et~al., \emph{{The
+  International Linear Collider Technical Design Report - Volume 2: Physics}},
+  \href{https://arxiv.org/abs/1306.6352}{{\ttfamily 1306.6352}}.
+
+\bibitem{Adolphsen:2013jya}
+C.~Adolphsen, M.~Barone, B.~Barish, K.~Buesser, P.~Burrows, J.~Carwardine
+  et~al., \emph{{The International Linear Collider Technical Design Report -
+  Volume 3.I: Accelerator $\&$ in the Technical Design Phase}},
+  \href{https://arxiv.org/abs/1306.6353}{{\ttfamily 1306.6353}}.
+
+\bibitem{Adolphsen:2013kya}
+C.~Adolphsen, M.~Barone, B.~Barish, K.~Buesser, P.~Burrows, J.~Carwardine
+  et~al., \emph{{The International Linear Collider Technical Design Report -
+  Volume 3.II: Accelerator Baseline Design}},
+  \href{https://arxiv.org/abs/1306.6328}{{\ttfamily 1306.6328}}.
+
+\bibitem{Behnke:2013lya}
+H.~Abramowicz et~al., \emph{{The International Linear Collider Technical Design
+  Report - Volume 4: Detectors}},
+  \href{https://arxiv.org/abs/1306.6329}{{\ttfamily 1306.6329}}.
+
+\bibitem{Brient:2002gh}
+J.-C. Brient and H.~Videau, \emph{{The Calorimetry at the future e+ e- linear
+  collider}}, {\emph{eConf} {\bfseries C010630} (2001) E3047},
+  [\href{https://arxiv.org/abs/hep-ex/0202004}{{\ttfamily hep-ex/0202004}}].
+
+\bibitem{Morgunov:2004ed}
+V.~Morgunov and A.~Raspereza, \emph{{Novel 3-D clustering algorithm and two
+  particle separation with tile HCAL}},  in \emph{{Linear colliders.
+  Proceedings, International Conference, LCWS 2004, Paris, France, April 19-23,
+  2004}}, pp.~431--436, 2004.
+\newblock \href{https://arxiv.org/abs/physics/0412108}{{\ttfamily
+  physics/0412108}}.
+
+\bibitem{Sefkow:2015hna}
+F.~Sefkow, A.~White, K.~Kawagoe, R.~Pöschl and J.~Repond, \emph{{Experimental
+  Tests of Particle Flow Calorimetry}},
+  \href{http://dx.doi.org/10.1103/RevModPhys.88.015003}{\emph{Rev. Mod. Phys.}
+  {\bfseries 88} (2016) 015003},
+  [\href{https://arxiv.org/abs/1507.05893}{{\ttfamily 1507.05893}}].
+
+\bibitem{Adloff:2011ha}
+{\scshape CALICE} collaboration, C.~Adloff, J.~Blaha, J.~J. Blaising,
+  C.~Drancourt, A.~Espargiliere, R.~Galione et~al., \emph{{Tests of a particle
+  flow algorithm with CALICE test beam data}},
+  \href{http://dx.doi.org/10.1088/1748-0221/6/07/P07005}{\emph{JINST}
+  {\bfseries 6} (2011) P07005},
+  [\href{https://arxiv.org/abs/1105.3417}{{\ttfamily 1105.3417}}].
+
+\bibitem{Anduze:2008hq}
+{\scshape CALICE} collaboration, J.~Repond et~al., \emph{{Design and
+  Electronics Commissioning of the Physics Prototype of a Si-W Electromagnetic
+  Calorimeter for the International Linear Collider}},
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/P08001}{\emph{JINST}
+  {\bfseries 3} (2008) P08001},
+  [\href{https://arxiv.org/abs/0805.4833}{{\ttfamily 0805.4833}}].
+
+\bibitem{Adloff:2008aa}
+{\scshape CALICE} collaboration, C.~Adloff et~al., \emph{{Response of the
+  CALICE Si-W electromagnetic calorimeter physics prototype to electrons}},
+  \href{http://dx.doi.org/10.1016/j.nima.2009.07.026}{\emph{Nucl. Instrum.
+  Meth.} {\bfseries A608} (2009) 372--383},
+  [\href{https://arxiv.org/abs/0811.2354}{{\ttfamily 0811.2354}}].
+
+\bibitem{Adloff:2010xj}
+C.~Adloff et~al., \emph{{Study of the interactions of pions in the CALICE
+  silicon-tungsten calorimeter prototype}},
+  \href{http://dx.doi.org/10.1088/1748-0221/5/05/P05007}{\emph{JINST}
+  {\bfseries 5} (2010) P05007},
+  [\href{https://arxiv.org/abs/1004.4996}{{\ttfamily 1004.4996}}].
+
+\bibitem{CALICE:2011aa}
+{\scshape CALICE} collaboration, C.~Adloff et~al., \emph{{Effects of
+  high-energy particle showers on the embedded front-end electronics of an
+  electromagnetic calorimeter for a future lepton collider}},
+  \href{http://dx.doi.org/10.1016/j.nima.2011.06.056}{\emph{Nucl. Instrum.
+  Meth.} {\bfseries A654} (2011) 97--109},
+  [\href{https://arxiv.org/abs/1102.3454}{{\ttfamily 1102.3454}}].
+
+\bibitem{Bilki:2014uep}
+{\scshape CALICE} collaboration, B.~Bilki et~al., \emph{{Testing hadronic
+  interaction models using a highly granular silicon–tungsten calorimeter}},
+  \href{http://dx.doi.org/10.1016/j.nima.2015.05.009}{\emph{Nucl. Instrum.
+  Meth.} {\bfseries A794} (2015) 240--254},
+  [\href{https://arxiv.org/abs/1411.7215}{{\ttfamily 1411.7215}}].
+
+\bibitem{Amjad:2014tha}
+M.~S. Amjad et~al., \emph{{Beam test performance of the SKIROC2 ASIC}},
+  \href{http://dx.doi.org/10.1016/j.nima.2014.12.011}{\emph{Nucl. Instrum.
+  Meth.} {\bfseries A778} (2015) 78--84}.
+
+\bibitem{Cornat:2015eoa}
+{\scshape CALICE} collaboration, R.~Cornat and R.~Pöeschl,
+  \emph{{Technological prototype of a silicon-tungsten imaging electromagnetic
+  calorimeter}},
+  \href{http://dx.doi.org/10.1088/1748-0221/10/06/C06015}{\emph{JINST}
+  {\bfseries 10} (2015) C06015}.
+
+\bibitem{Cornat:2009zz}
+{\scshape CALICE} collaboration, R.~Cornat, \emph{{Semiconductor sensors for
+  the CALICE SiW EMC and study of the cross-talk between guard rings and pixels
+  in the CALICE SiW prototype}},
+  \href{http://dx.doi.org/10.1088/1742-6596/160/1/012067}{\emph{J. Phys. Conf.
+  Ser.} {\bfseries 160} (2009) 012067}.
+
+\bibitem{Callier:2011zz}
+S.~Callier, F.~Dulucq, C.~de~La~Taille, G.~Martin-Chassard and
+  N.~Seguin-Moreau, \emph{{SKIROC2, front end chip designed to readout the
+  Electromagnetic CALorimeter at the ILC}},
+  \href{http://dx.doi.org/10.1088/1748-0221/6/12/C12040}{\emph{JINST}
+  {\bfseries 6} (2011) C12040}.
+
+\bibitem{Gastaldi:2014vaa}
+F.~Gastaldi, R.~Cornat, F.~Magniette and V.~Boudry, \emph{{A scalable gigabit
+  data acquisition system for calorimeters for linear collider}}, {\emph{PoS}
+  {\bfseries TIPP2014} (2014) 193}.
+
+\bibitem{Rubio-Roy:2017ere}
+M.~Rubio-Roy, F.~Thiant and F.~Magniette, \emph{{Flexible online monitoring for
+  high-energy physics with Pyrame}},
+  \href{http://dx.doi.org/10.1088/1742-6596/898/3/032009}{\emph{J. Phys. Conf.
+  Ser.} {\bfseries 898} (2017) 032009}.
+
+\bibitem{Magniette:2018wdz}
+{\scshape CALICE} collaboration, F.~Magniette and A.~Irles, \emph{{Pyrame 3, an
+  online framework for Calice SiW-Ecal}},
+  \href{http://dx.doi.org/10.1088/1748-0221/13/03/C03009}{\emph{JINST}
+  {\bfseries 13} (2018) C03009}.
+
+\bibitem{Boudry:2318814}
+V.~Boudry, R.~Cornat, D.~Lacour, R.~Pöschl and F.~Magniette, \emph{{Advanced
+  assembly chain for Si calorimeters}}, .
+
+\bibitem{Suehara:2018mqk}
+T.~Suehara et~al., \emph{{Performance study of SKIROC2/A ASIC for ILD Si-W
+  ECAL}}, \href{http://dx.doi.org/10.1088/1748-0221/13/03/C03015}{\emph{JINST}
+  {\bfseries 13} (2018) C03015},
+  [\href{https://arxiv.org/abs/1801.02024}{{\ttfamily 1801.02024}}].
+
+\bibitem{Irles:2018uum}
+{\scshape CALICE} collaboration, A.~Irles, \emph{{Latest R\&D news and beam
+  test performance of the highly granular SiW-ECAL technological prototype for
+  the ILC}},
+  \href{http://dx.doi.org/10.1088/1748-0221/13/02/C02038}{\emph{JINST}
+  {\bfseries 13} (2018) C02038},
+  [\href{https://arxiv.org/abs/1802.08806}{{\ttfamily 1802.08806}}].
+
+\bibitem{Irles:2018hcd}
+{\scshape CALICE} collaboration, A.~Irles, \emph{{Latest developments on the
+  highly granular Silicon-Tungsten Electromagnetic Calorimeter technological
+  prototype for the International Large Detector}},  in \emph{{2017 IEEE
+  Nuclear Science Symposium and Medical Imaging Conference (NSS/MIC 2017)
+  Atlanta, Georgia, USA, October 21-28, 2017}}, 2018.
+\newblock \href{https://arxiv.org/abs/1801.10407}{{\ttfamily 1801.10407}}.
+
+\end{thebibliography}\endgroup

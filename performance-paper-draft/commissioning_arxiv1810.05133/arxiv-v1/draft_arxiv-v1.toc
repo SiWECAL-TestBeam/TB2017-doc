@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}The SiW-ECAL technological prototype}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Silicon sensors}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}SKIROC: Silicon pin Kalorimeter Integrated ReadOut Chip}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Active Sensor Units}{3}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Data AcQuisition system}{5}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}The prototype setup}{5}{subsection.2.5}
+\contentsline {section}{\numberline {3}Commissioning}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Tagging and control of the noisy channels.}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Optimal trigger threshold determination}{9}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}S/N ratio for the trigger decission}{10}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Prospects}{11}{subsection.3.4}
+\contentsline {section}{\numberline {4}Performance in a beam test with positrons at DESY}{12}{section.4}
+\contentsline {subsection}{\numberline {4.1}Noise study and MIP calibration}{13}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}S/N for the charge measurement of triggered channels}{16}{subsubsection.4.1.1}
+\contentsline {subsection}{\numberline {4.2}Pedestal and noise stability in a magnetic field}{16}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Pedestal stability in electromagnetic shower events}{16}{subsection.4.3}
+\contentsline {section}{\numberline {5}Summary}{17}{section.5}
+\contentsline {section}{\numberline {6}Outlook}{18}{section.6}
+\contentsline {section}{\numberline {A}Apendix: Filtering of fake triggers}{19}{appendix.A}
