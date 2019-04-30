@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: draft.aux
+The style file: elsarticle-num.bst
+Database file #1: ../../references.bib
+I was expecting a `,' or a `}'---line 219 of file ../../references.bib
+ :       
+ :       url            = "%%http://inspirehep.net/record/667651/files/arXiv:physics_0412108.pdf%%",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in Behnke:2013xla
+Warning--empty journal in Baer:2013cma
+Warning--empty journal in Adolphsen:2013jya
+Warning--empty journal in Adolphsen:2013kya
+Warning--empty journal in Behnke:2013lya
+Warning--empty journal in Diener:2018qap
+Warning--empty journal in Bilokin:2018gfn
+You've used 22 entries,
+            2937 wiz_defined-function locations,
+            834 strings with 10566 characters,
+and the built_in function-call counts, 6870 in all, are:
+= -- 639
+> -- 301
+< -- 1
++ -- 115
+- -- 93
+* -- 618
+:= -- 999
+add.period$ -- 37
+call.type$ -- 22
+change.case$ -- 22
+chr.to.int$ -- 0
+cite$ -- 29
+duplicate$ -- 174
+empty$ -- 670
+format.name$ -- 115
+if$ -- 1710
+int.to.chr$ -- 0
+int.to.str$ -- 22
+missing$ -- 22
+newline$ -- 89
+num.names$ -- 22
+pop$ -- 92
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 438
+stack$ -- 0
+substring$ -- 271
+swap$ -- 83
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 7
+while$ -- 38
+width$ -- 24
+write$ -- 215
+(There was 1 error message)
